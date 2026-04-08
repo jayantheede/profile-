@@ -1,0 +1,105 @@
+{
+  "personal": {
+    "name": "Dr. Example Professor",
+    "designation": "Professor",
+    "department": "Department of Computer Science & Engineering",
+    "institution": "Jawaharlal Nehru Technological University",
+    "email": "professor.jntu@example.edu",
+    "phone": "+91-XXXXXXXXXX",
+    "image": "https://i.pravatar.cc/300?img=11",
+    "ids": {
+      "scopus": "12345678900",
+      "orcid": "0000-0002-XXXX-XXXX",
+      "researcherId": "A-1234-2026",
+      "googleScholar": "xyzABC123"
+    }
+  },
+  "metrics": {
+    "totalCitations": 1450,
+    "hIndex": 18,
+    "i10Index": 25,
+    "relativePosition": {
+      "rank": 3,
+      "totalFaculty": 45,
+      "percentile": 93
+    }
+  },
+  "expertise": [
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Data Mining",
+    "Pattern Recognition",
+    "Natural Language Processing",
+    "Computer Vision"
+  ],
+  "experience": [
+    {
+      "role": "Professor",
+      "institution": "JNTU",
+      "duration": "2018 - Present"
+    },
+    {
+      "role": "Associate Professor",
+      "institution": "JNTU",
+      "duration": "2010 - 2018"
+    }
+  ],
+  "publicationsChart": [
+    { "year": "2018", "count": 2 },
+    { "year": "2019", "count": 4 },
+    { "year": "2020", "count": 5 },
+    { "year": "2021", "count": 8 },
+    { "year": "2022", "count": 12 },
+    { "year": "2023", "count": 15 },
+    { "year": "2024", "count": 10 }
+  ],
+  "publicationsInfo": [
+    {
+      "year": 2024,
+      "title": "Advanced deep learning architectures for anomaly detection in sensor networks",
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "doi": "10.1109/TNNLS.2024.1234567"
+    },
+    {
+      "year": 2023,
+      "title": "A systematic review of reinforcement learning in agricultural robotics",
+      "journal": "Computers and Electronics in Agriculture",
+      "doi": "10.1016/j.compag.2023.107000"
+    },
+    {
+      "year": 2023,
+      "title": "Predictive modeling and precision agriculture: A data-driven approach",
+      "journal": "Journal of Agricultural Informatics",
+      "doi": "10.1007/s12345-023-09876-y"
+    },
+    {
+      "year": 2022,
+      "title": "Optimizing crop yield through machine learning algorithms",
+      "journal": "International Journal of Smart Agricultural Engineering",
+      "doi": "10.1016/j.ijsae.2022.100500"
+    },
+    {
+      "year": 2021,
+      "title": "IoT-based intelligent farming: A framework for real-time monitoring",
+      "journal": "IEEE Internet of Things Journal",
+      "doi": "10.1109/JIOT.2021.3456789"
+    }
+  ],
+  "similarProfiles": [
+    {
+      "name": "Dr. Sarah Adams",
+      "department": "Computer Science",
+      "image": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "name": "Dr. Rajiv Kumar",
+      "department": "Information Technology",
+      "image": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "name": "Dr. Emily Chen",
+      "department": "Data Science",
+      "image": "https://i.pravatar.cc/150?img=9"
+    }
+  ]
+}
