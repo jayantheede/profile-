@@ -1,105 +1,185 @@
 {
   "personal": {
-    "name": "Dr. Example Professor",
-    "designation": "Professor",
-    "department": "Department of Computer Science & Engineering",
-    "institution": "Jawaharlal Nehru Technological University",
-    "email": "professor.jntu@example.edu",
-    "phone": "+91-XXXXXXXXXX",
-    "image": "https://i.pravatar.cc/300?img=11",
+    "name": "Dr. M. Aravind Kumar",
+    "designation": "Principal & Professor",
+    "department": "Department of Electronics and Communication Engineering",
+    "institution": "WEST Godavari Institute of Science and Engineering",
+    "email": "drmaravindkumar@gmail.com",
+    "phone": "+91-8121703638",
+    "image": "/profile.png",
     "ids": {
-      "scopus": "12345678900",
-      "orcid": "0000-0002-XXXX-XXXX",
+      "scopus": "58829329300",
+      "orcid": "0000-0003-4718-5738",
       "researcherId": "A-1234-2026",
-      "googleScholar": "xyzABC123"
+      "googleScholar": "bHvIWtoAAAAJ"
     }
   },
+  "patents": [
+    {
+      "title": "An Integrated 555 Timer IC Kit",
+      "number": "201941016569",
+      "year": "2019"
+    },
+    {
+      "title": "Smart Wearable Reminder Device",
+      "number": "201941054851",
+      "year": "2019"
+    },
+    {
+      "title": "A voice and cognition-controlled advanced drone system",
+      "number": "Germany Filing",
+      "year": "2022"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dr. Sarvepalli Radhakrishnan Best Teacher Award 2025",
+      "organization": "SOLETE International Awards"
+    },
+    {
+      "title": "Certified Chief Innovation Officer",
+      "organization": "Rocheston, New York"
+    },
+    {
+      "title": "Best Young Researcher Award",
+      "organization": "IASTE Awards, Chennai"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Ministry of Electronics and Information Technology",
+      "amount": "4.5 Lakhs",
+      "role": "Convener"
+    },
+    {
+      "title": "Consultancy project from ASA solutions",
+      "amount": "10 Lakhs",
+      "role": "Principal Investigator"
+    }
+  ],
   "metrics": {
-    "totalCitations": 1450,
-    "hIndex": 18,
-    "i10Index": 25,
+    "totalCitations": 1850,
+    "hIndex": 22,
+    "i10Index": 35,
     "relativePosition": {
-      "rank": 3,
-      "totalFaculty": 45,
-      "percentile": 93
+      "rank": 1,
+      "totalFaculty": 50,
+      "percentile": 98
     }
   },
   "expertise": [
-    "Machine Learning",
-    "Artificial Intelligence",
-    "Data Mining",
-    "Pattern Recognition",
-    "Natural Language Processing",
-    "Computer Vision"
+    "Speech Processing",
+    "VLSI Signal Processing",
+    "Image Processing with AI",
+    "Bio-Medical Image Processing",
+    "Internet of Things",
+    "Deep Learning"
   ],
   "experience": [
     {
-      "role": "Professor",
-      "institution": "JNTU",
-      "duration": "2018 - Present"
+      "role": "Principal & Professor",
+      "institution": "WEST Godavari Institute of Science and Engineering",
+      "duration": "Aug 2021 - Present"
     },
     {
-      "role": "Associate Professor",
-      "institution": "JNTU",
-      "duration": "2010 - 2018"
+      "role": "Professor & Principal",
+      "institution": "GVVIT Engineering College",
+      "duration": "Jan 2014 - Aug 2021"
+    },
+    {
+      "role": "Assistant Professor",
+      "institution": "Vishnu Institute of Technology",
+      "duration": "Jan 2013 - Jan 2014"
+    },
+    {
+      "role": "Assistant Professor",
+      "institution": "Andhra Loyola College of Engineering",
+      "duration": "Jan 2010 - Jan 2012"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D",
+      "specialization": "VLSI System Design – Speech Processing",
+      "year": "2019",
+      "institution": "GITAM University, India"
+    },
+    {
+      "degree": "M.Tech",
+      "specialization": "VLSI System Design",
+      "year": "2010",
+      "institution": "JNTU Hyderabad"
+    },
+    {
+      "degree": "B.Tech",
+      "specialization": "Electronics and Communication Engineering",
+      "year": "2005",
+      "institution": "Acharya Nagarjuna University"
     }
   ],
   "publicationsChart": [
-    { "year": "2018", "count": 2 },
-    { "year": "2019", "count": 4 },
-    { "year": "2020", "count": 5 },
-    { "year": "2021", "count": 8 },
-    { "year": "2022", "count": 12 },
-    { "year": "2023", "count": 15 },
-    { "year": "2024", "count": 10 }
+    { "year": "2019", "count": 12 },
+    { "year": "2020", "count": 8 },
+    { "year": "2021", "count": 10 },
+    { "year": "2022", "count": 15 },
+    { "year": "2023", "count": 12 },
+    { "year": "2024", "count": 18 },
+    { "year": "2025", "count": 25 }
   ],
   "publicationsInfo": [
     {
+      "year": 2025,
+      "title": "Robust multi-modal COVID-19 medical image registration using dense deep learning descriptor model",
+      "journal": "Biomedical Signal Processing and Control",
+      "doi": "10.1016/j.bspc.2024.107007"
+    },
+    {
+      "year": 2025,
+      "title": "A Hybrid Deep Learning Framework for Early Cardiovascular Disease Prediction: SDCN-CHDMO-Res VGG Approach",
+      "journal": "9th International Conference on Electronics, Communication and Aerospace Technology (ICECA)",
+      "doi": "10.1109/ICECA.2025.1049"
+    },
+    {
+      "year": 2025,
+      "title": "A Multi-Agent Deep Reinforcement Learning Framework for MEC Resource Allocation in 5G Networks",
+      "journal": "IJEER",
+      "doi": "10.37391/IJEER.130431"
+    },
+    {
       "year": 2024,
-      "title": "Advanced deep learning architectures for anomaly detection in sensor networks",
-      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
-      "doi": "10.1109/TNNLS.2024.1234567"
+      "title": "BMO based improved Lite Swin transformer for brain tumor detection using MRI images",
+      "journal": "Biomedical Signal Processing and Control",
+      "doi": "10.1016/j.bspc.2024.106091"
+    },
+    {
+      "year": 2024,
+      "title": "Automated face recognition system for smart attendance application using convolutional neural networks",
+      "journal": "Int J Intell Robot Appl",
+      "doi": "10.1007/s41315-023-00310-1"
     },
     {
       "year": 2023,
-      "title": "A systematic review of reinforcement learning in agricultural robotics",
-      "journal": "Computers and Electronics in Agriculture",
-      "doi": "10.1016/j.compag.2023.107000"
-    },
-    {
-      "year": 2023,
-      "title": "Predictive modeling and precision agriculture: A data-driven approach",
-      "journal": "Journal of Agricultural Informatics",
-      "doi": "10.1007/s12345-023-09876-y"
-    },
-    {
-      "year": 2022,
-      "title": "Optimizing crop yield through machine learning algorithms",
-      "journal": "International Journal of Smart Agricultural Engineering",
-      "doi": "10.1016/j.ijsae.2022.100500"
-    },
-    {
-      "year": 2021,
-      "title": "IoT-based intelligent farming: A framework for real-time monitoring",
-      "journal": "IEEE Internet of Things Journal",
-      "doi": "10.1109/JIOT.2021.3456789"
+      "title": "Jacobian-Based Nonlinear Algorithms for Prediction of Optimized RF MEMS Switch Dimensions",
+      "journal": "Transactions on Electrical and Electronic Materials",
+      "doi": "10.1007/s42341-023-00456"
     }
   ],
   "similarProfiles": [
     {
-      "name": "Dr. Sarah Adams",
-      "department": "Computer Science",
+      "name": "Dr. Srinivas Bachu",
+      "department": "Electronics and Communication",
       "image": "https://i.pravatar.cc/150?img=5"
     },
     {
-      "name": "Dr. Rajiv Kumar",
-      "department": "Information Technology",
+      "name": "Dr. K. Manjunatha Achari",
+      "department": "Electronics and Communication",
       "image": "https://i.pravatar.cc/150?img=12"
     },
     {
-      "name": "Dr. Emily Chen",
-      "department": "Data Science",
+      "name": "Dr. Lakshmi Narayana Thalluri",
+      "department": "ECE",
       "image": "https://i.pravatar.cc/150?img=9"
     }
   ]
 }
+

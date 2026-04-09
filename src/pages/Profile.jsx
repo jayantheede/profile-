@@ -75,7 +75,8 @@ function Profile() {
     { id: 'experience_information_panel', label: 'Experience' },
     { id: 'education_information_panel', label: 'Education Qualification' },
     { id: 'metrics_information_panel', label: 'Metrics Overview' },
-    { id: 'other_information_panel', label: 'Publications' }
+    { id: 'other_information_panel', label: 'Publications' },
+    { id: 'achievements_information_panel', label: 'Patents & Awards' }
   ];
 
   const scrollToSection = (id, label) => {
@@ -286,18 +287,18 @@ function Profile() {
             {/* Education Qualification */}
             <Panel id="education_information_panel" icon={GraduationCap} title="Education Qualification">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                 <motion.div whileHover={{ y: -5 }} className="p-4 border border-border rounded-xl bg-gray-50/50 relative overflow-hidden">
-                   <div className="absolute top-0 left-0 w-1 h-full bg-blue-600"></div>
-                   <h3 className="font-bold text-lg">Ph.D.,</h3>
-                   <p className="text-sm text-gray-600 mt-1">National Institute of Technology, Warangal</p>
-                   <p className="text-xs font-bold text-gray-400 mt-3 pt-3 border-t border-gray-200">2001</p>
-                 </motion.div>
-                 <motion.div whileHover={{ y: -5 }} className="p-4 border border-border rounded-xl bg-gray-50/50 relative overflow-hidden">
-                   <div className="absolute top-0 left-0 w-1 h-full bg-indigo-500"></div>
-                   <h3 className="font-bold text-lg">M.E.</h3>
-                   <p className="text-sm text-gray-600 mt-1">Andhra University</p>
-                   <p className="text-xs font-bold text-gray-400 mt-3 pt-3 border-t border-gray-200">1987</p>
-                 </motion.div>
+                 {data.education.map((edu, idx) => (
+                   <motion.div 
+                     key={idx}
+                     whileHover={{ y: -5 }} 
+                     className="p-4 border border-border rounded-xl bg-gray-50/50 relative overflow-hidden"
+                   >
+                     <div className={`absolute top-0 left-0 w-1 h-full ${idx === 0 ? 'bg-blue-600' : idx === 1 ? 'bg-indigo-500' : 'bg-slate-400'}`}></div>
+                     <h3 className="font-bold text-lg">{edu.degree} {edu.specialization ? `in ${edu.specialization}` : ''}</h3>
+                     <p className="text-sm text-gray-600 mt-1">{edu.institution}</p>
+                     <p className="text-xs font-bold text-gray-400 mt-3 pt-3 border-t border-gray-200">{edu.year}</p>
+                   </motion.div>
+                 ))}
               </div>
             </Panel>
 
@@ -420,6 +421,69 @@ function Profile() {
                     </AnimatePresence>
                   </tbody>
                 </table>
+              </div>
+            </Panel>
+
+            {/* Patents & Awards */}
+            <Panel id="achievements_information_panel" icon={Trophy} title="Patents, Awards & Grants">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                {/* Patents */}
+                <div className="space-y-4">
+                  <h3 className="text-lg font-bold flex items-center gap-2 text-slate-700">
+                    <FileText className="w-5 h-5 text-amber-500" />
+                    Patents
+                  </h3>
+                  <div className="space-y-3">
+                    {data.patents.map((patent, idx) => (
+                      <motion.div key={idx} className="p-4 bg-amber-50/50 border border-amber-100 rounded-xl relative overflow-hidden group">
+                        <div className="absolute right-0 top-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                          <BookMarked className="w-12 h-12" />
+                        </div>
+                        <h4 className="font-bold text-amber-900">{patent.title}</h4>
+                        <p className="text-xs text-amber-700 mt-1">Number: {patent.number} • {patent.year}</p>
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Awards */}
+                <div className="space-y-4">
+                  <h3 className="text-lg font-bold flex items-center gap-2 text-slate-700">
+                    <Award className="w-5 h-5 text-purple-500" />
+                    Major Awards
+                  </h3>
+                  <div className="space-y-3">
+                    {data.awards.map((award, idx) => (
+                      <motion.div key={idx} className="p-4 bg-purple-50/50 border border-purple-100 rounded-xl">
+                        <h4 className="font-bold text-purple-900">{award.title}</h4>
+                        <p className="text-xs text-purple-700 mt-1">{award.organization}</p>
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Research Grants */}
+                <div className="lg:col-span-2 space-y-4">
+                   <h3 className="text-lg font-bold flex items-center gap-2 text-slate-700 border-t pt-6">
+                    <Building2 className="w-5 h-5 text-green-500" />
+                    Research & Consultancy Grants
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {data.grants.map((grant, idx) => (
+                      <div key={idx} className="flex justify-between items-center p-4 bg-green-50/50 border border-green-100 rounded-xl">
+                        <div>
+                          <h4 className="font-bold text-green-900">{grant.title}</h4>
+                          <p className="text-xs text-green-700">Role: {grant.role}</p>
+                        </div>
+                        <div className="text-lg font-black text-green-600">
+                          {grant.amount}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
               </div>
             </Panel>
 
