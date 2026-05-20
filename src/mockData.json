@@ -180,6 +180,57 @@
       "department": "ECE",
       "image": "https://i.pravatar.cc/150?img=9"
     }
-  ]
+  ],
+  "documents": {
+    "personal": [
+      {"title": "Self attested CV (DOCX)", "url": "/documents/Self attested CV of Dr. Aravind Kumar.M.docx"},
+      {"title": "CV (TXT)", "url": "/documents/cv.txt"},
+      {"title": "Genuineness Certificate", "url": "/documents/Genunineness Certificate.pdf"},
+      {"title": "Cover Page (PDF)", "url": "/documents/Dr.Aravind Kumar Cover Page.pdf"},
+      {"title": "Cover Page (DOC)", "url": "/documents/Dr.Aravind Kumar cover page.doc"},
+      {"title": "UGC- PABS Proforma", "url": "/documents/UGC- PABS Proforma.pdf"},
+      {"title": "UGC- PABS Proforma 3A", "url": "/documents/UGC- PABS Proforma_3A.pdf"},
+      {"title": "UGC- PABS Proforma 3B", "url": "/documents/UGC- PABS Proforma_3B.pdf"},
+      {"title": "UGC- PABS Proforma 3C", "url": "/documents/UGC- PABS Proforma_3C.pdf"},
+      {"title": "UGC- PABS Proforma 3D", "url": "/documents/UGC- PABS Proforma_3D.pdf"},
+      {"title": "UGC- PABS Proforma 3E", "url": "/documents/UGC- PABS Proforma_3E.pdf"},
+      {"title": "UGC- PABS Proforma 3F", "url": "/documents/UGC- PABS Proforma_3F.pdf"}
+    ],
+    "experience": [
+      {"title": "Advisory Committee Appointment", "url": "/documents/Appointment letter advisory committee member Dr Aravind.pdf"},
+      {"title": "Guide Allotment Proofs", "url": "/documents/Guide Allotment proofs.pdf"},
+      {"title": "Invited Lectures Proofs", "url": "/documents/Invited Lectures Proofs.pdf"}
+    ],
+    "education": [
+      {"title": "Certificates", "url": "/documents/Certificates.pdf"}
+    ],
+    "publications": [
+      {"title": "Papers Published (Excel)", "url": "/documents/Papers Published in Refereed Journals.xlsx"},
+      {"title": "3 Journals and 2 Conferences", "url": "/documents/3journals and 2 conferences.pdf"},
+      {"title": "63-3", "url": "/documents/63-3.pdf"},
+      {"title": "Books Proofs", "url": "/documents/BOOKS Proofs.pdf"},
+      {"title": "Books", "url": "/documents/BOOKS.pdf"},
+      {"title": "Conferences Proofs", "url": "/documents/CONFERENCES Proofs.pdf"},
+      {"title": "Conferences", "url": "/documents/CONFERENCES.pdf"},
+      {"title": "Conferences (Excel)", "url": "/documents/CONFERENCES.xlsx"},
+      {"title": "Conferences (7)-1", "url": "/documents/CONFERENCES(7)-1.pdf"},
+      {"title": "Conferences (7)-2", "url": "/documents/CONFERENCES(7)-2.pdf"},
+      {"title": "Conferences (7)-3", "url": "/documents/CONFERENCES(7)-3.pdf"},
+      {"title": "Conferences (7)-4", "url": "/documents/CONFERENCES(7)-4.pdf"},
+      {"title": "Conferences (7)-5", "url": "/documents/CONFERENCES(7)-5.pdf"},
+      {"title": "Conferences (7)-6", "url": "/documents/CONFERENCES(7)-6.pdf"},
+      {"title": "Conferences (7)-7", "url": "/documents/CONFERENCES(7)-7.pdf"},
+      {"title": "Conferences (7)-8", "url": "/documents/CONFERENCES(7)-8.pdf"},
+      {"title": "Conferences (7)-9", "url": "/documents/CONFERENCES(7)-9.pdf"},
+      {"title": "Papers Presented in Conferences", "url": "/documents/III(B)_Papers_Presented_in_International Conference_national conference.pdf"},
+      {"title": "Publication Papers Proofs", "url": "/documents/PUBLICATION PAPERS Proofs.pdf"}
+    ],
+    "patents": [
+      {"title": "Patents Proofs", "url": "/documents/PATENTS Proofs.pdf"}
+    ],
+    "awards": [
+      {"title": "Awards Proofs", "url": "/documents/Awards Proofs.pdf"}
+    ]
+  }
 }
 

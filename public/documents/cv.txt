@@ -1,0 +1,472 @@
+
+Dr.M.Aravind Kumar
+Principal
+M.Tech, Ph.D
+ drmaravindkumar@gmail.com
+   Mobile +918121703638
+
+	
+    Summary
+Over 17 years of experience in industry & Academics with good leadership skills
+
+
+
+
+	
+   Skill Highlights
+
+
+
+	•	Ratified as a professor by JNTUK, Kakinada University.
+	•	Teaching.
+	•	Presenting/Publishing more research papers at international conferences (world wide gatherings/Journals).
+	•	Setting up a Research Center for Research/Project/Consultancy.
+	•	Spurring/Motivating the faculty and students towards Research.
+  
+
+
+
+
+Academic Qualification (Undergraduate Onwards).
+
+
+
+
+S.No
+Examination Passed
+Year of
+passing
+Specialization
+Universities/Institution
+%Marks / Grade
+1
+Ph.D
+2019
+VLSI System Design – Speech Processing
+GITAM University, India
+Awarded
+2
+M.Tech
+2010
+VLSI System Design
+JNTU Hyderabad, India
+71%
+4
+B.Tech
+2005
+Electronics and Communication Engineering
+Acharya Nagarjuna University
+69%
+5
+Intermediate
+2000
+MPC
+Board of Intermediate Education, Hyderabad, A.P.
+72.5%
+6
+SSC
+1998
+General
+Board of Secondary Education, Hyderabad, A.P.
+67%
+
+
+
+
+
+
+
+
+Work experience (in chronological order)
+
+Name and address of employer
+Position held (Temporary/Regular)
+Duration
+Nature of Duties
+
+
+From
+To
+
+WEST Godavari Institute of Science and Engineering, Tadepalligudem, Andhra Pradesh.
+Principal &
+Professor in ECE
+Aug 13th 2021
+Till Date
+Monitoring of
+Academic Activities, Implementing
+Decisions of Governing Body,
+Guiding Academic &Non-Academic Committee’s/Cells
+Towards growth of Institutions, IQAC Coordinator, NAAC, NBA and Autonomous.
+GVVIT Engineering College, Bhimavaram.
+Professor & Principal
+JAN 2014
+Aug 12th 2021
+Documentationof UGC, AICTE, JNTUK, NBA &
+NAAC Reports and Processes. Organized and Actively ParticipatedinSocial, Curricular and Extra- Curricular Activities. Co-ordination &NPTEL, Institution Innovation Cell, Policy implementation and IQAC Cell.
+Vishnu Institute of Technology, Bhimavaram.
+Assistant Professor,
+Dept. of ECE.
+JAN 2013
+JAN 2014
+Documentationof UGC, AICTE, JNTUK, NBA &
+NAAC Reports and Processes. Organized and Actively ParticipatedinSocial, Curricular and Extra- Curricular Activities. Co-ordination.
+Consistent Recipient ofAcademicAwards for Achieving more than 95 % passPercentage.
+Andhra Loyola College of Engineering, Vijayawada.
+Assistant Professor,
+Dept. of ECE.
+JAN 2010
+JAN 2012
+Documentation of AICTE,JNTU&NBA
+ReportsandProcesses. Organized and Actively Participated in `Social, Curricular and Extra-Curricular Activities. Co- ordination. Consistent RecipientofAcademic Awards for Achieving more than 95 % passes Percentage. SuccessfullyConducted university Examinations (offline/online) as officer in-charge of examinations.
+YPR College of Engineering and Technology, Medak.
+Assistant Professor,
+Dept. of ECE.
+JUNE 2005
+JULY 2008
+Documentationof AICTE & JNTU Reports and Processes. Organized and Actively Participated in Social, Curricular and Extra-Curricular Activities. Co- ordination. Acted as trained NSS Program Officer and Then as TPO of institution.
+VLSI Design Tools 
+Simulation                               : Model Sim, PSPICE 
+Synthesis                                 : XST 
+Implementation                       : XILINX ISE 
+Layout & Schematic Software: CADENCE, TANNER Tool, LT-Spice, Electric Binary 
+Technical-Skill Set HDL’s      : Verilog, VHDL 
+Operating System                    : Windows 9X, 2000, XP, WINDOWS7 
+Linux Tool                               : MATLAB, Open CV
+
+Courses Taught 
+● Digital Image processing 
+● Cellular Mobile communication 
+● Analog Communications 
+● Digital Communications 
+● Switching Theory & Logic Design 
+● Biomedical Engineering 
+● Digital System Design & Digital IC Applications 
+● VLSI Design 
+● BIOMEDICAL Instrumentation
+
+Areas of Research Interest 
+● Speech Processing 
+● VLSI signal Processing 
+● Image Processing with AI 
+● Bio-Medical Image Processing 
+● Internet of Things 
+
+Patents 
+● Title: AN INTEGRATED 555 TIMER IC KIT Application Number: 201941016569 
+Filing Date: 25th April 2019 Country: INDIA 
+Applicant: GVVR Institute of Technology 
+Inventor: Dr. Aravind Kumar Madam, O. Ranga Rao 
+● Title: Smart Wearable Reminder Device Application Number: 201941054851 
+Filing Date: 30th December 2019 Country: INDIA 
+Applicant: GVVR Institute of Technology 
+Inventor: Dr. Madam Aravind Kumar, Dr.P.S.N.Murthy
+● Title: A voice and cognition-controlled advanced drone system.
+Filing Date: 26thMay 2022 Country: Germany. 
+Inventor: Dr. K. Kishore Kumar, Dr. Madam Aravind Kumar, Dr. M. Pavani.
+     Books / Book Chapters - 25 
+● Bhushan K, M Aravind Kumar, Srinivas B, “Signal Processing Simulation using MATLAB” LAP Lambert Academic Publishing, Germany.
+● Aravind kumar madam, Srinivas bachu, “MATLAB Programming for Beginners”, LAP Lambert Academic Publishing, Germany, ISBN No: 978-613- 8-38606-3.
+● Detection of Motion Vector-Based Video Steganography by adding or Subtracting One Motion Vector Value, Digital Image and Video Watermarking and Steganography Publisher Intech Open, Web of Science London, United Kingdom. DOI: 10.5772/intechopen.78230. 
+● De-Noising System for Speech Signal Enhancement in Digital Hearing AID, LAP Lambert Academic 
+Publishing, Germany, ISBN No: 978-620-0-00528-1.
+●https://www.lap-publishing.com/catalog/details/store/gb/book/978-613-8-38606-3/matlab-programming-for- beginners.
+● Google Scholar: https://scholar.google.com/citations?hl=en&user=Yu4dA2kAAAAJ 
+● B.K.Sarkar, Reenasingh, Mimicherian, M.Aravindkumar, “IOT” Namya Press, Kindle ASIN Number: 
+B0BSF9S557 
+● M.Aravindkumar, L.Sankar, “Fast image Encryption based on random image key” Industrial Engineering Journal, ISSN No:0970-2555. 
+● M.Aravindkumar, K.M.Unnisha begum, “IOT based Anesthesia injector through robot” LAP lambert 
+academic Publishing, Germany. ISBN No: 978-620-6-16297-1 
+● M.Aravindkumar , “IOT based Smart Agriculture system”LAP lambert academic publishing Germany ISSN No: 978-620-6-15913-1 
+● M.Aravindkumar,K.Balasindhuri, “Implementation of live Telecasting Robot” LAP lambert academic 
+publishinggermany ISSN No: 978-620-6-17898-9 
+● M.Aravindkumar, “Identification of blind digital Modulation Multiple-Antenna systems” LAP lambert  
+academic publishing Germany ISSN No: 978-620-6-18074-6 
+● M.Aravindkumar, “Design High Speed and High Accuracy Novel Multiplier” LAP lambert academic 
+publishing Germany. ISSN No: 978-620-6-18070-8 
+● Dr.M.Aravindkumar, M.Chilakaiah, N.L.Tejaswini, “Facial Emotions Recognition using Convolution Neural Network” LAP lambert Academic Publishing with ISBN :978-620-6-152279.
+● Dr.M.Aravindkumar , “Firefighting and agriculture seed spreading drone” LAP lambert Academic Publishing with ISBN :978-620-6-15436-5.
+● Dr.M.Aravindkumar, P.Sheela, “Smart control of traffic light using deep learning” LAP lambert academic.publishing Germany ISBN No: 978-620-6-15228-6 
+● Dr.M.Aravindkumar, P.Sheela, J.Srimahalakshmi, “Deep learning and image processing –Based CurrencyDetection” LAP lambert academic publishing Germany ISBN No:978-620-6-16451-7.
+● Dr.M.Aravindkumar, “An Acoustic channel model for direct and multipath models in deepwater” LAP lambert academic publishing Germany ISBN No:978-620-6-17289-5.
+● Dr.M.Aravindkumar, K.Balasindhuri, “Battery Monitoring system for electric vehicles” LAP lambert academic publishing Germany ISBN No:978-620-6-17287-1.
+● Dr.M.Aravindkumar, P.Sheela, “A data analytics approach to the cybercrime underground economy” LAP lambert academic publishing Germany ISBN No:978-620-6-16738-9.
+● Dr.M.Aravindkumar , “Fast image encryption based on random image key” LAP lambert academic publishing Germany ISBN No:978-620-6-15914-8.
+
+● Dr.M.Aravindkumar , “Object classification using fast supervised hashing for high dimensional data” LAP lambert academic publishing Germany ISBN No:978-620-6-17291-8.
+● Dr.M.Aravindkumar , “Soil Analysis and crop recommendation using machine learning” LAP lambert  
+academic publishing Germany ISBN No:978-620-6-18075-3.
+● Dr.M.Aravindkumar , “Performance analysis of mimo-ofdm system with relaying techniques” LAP lambert academic publishing Germany ISBN No:978-620-6-18072-2.
+● Dr.M.Aravindkumar, T.Durgadevi, G.Phanimadhuri, “Machine Learning Based Power Utilization Prediction” LAP lambert academic publishing Germany ISBN No:978-620-6-16450-0.
+
+      International Journals 
+
+	•	M. B. Barla and A. Kumar Madam, "A Hybrid Deep Learning Framework for Early Cardiovascular Disease Prediction: SDCN-CHDMO-Res VGG Approach," 2025 9th International Conference on Electronics, Communication and Aerospace Technology (ICECA), Coimbatore, India, 2025, pp. 1049-1053.
+	•	M. B. Barla and A. Kumar Madam, "Deep Learning-Driven ECG Classification using CNN-LSTM-Transformer and Metaheuristic Optimization," 2025 9th International Conference on Electronics, Communication and Aerospace Technology (ICECA), Coimbatore, India, 2025, pp. 128-133.
+	•	B. S. Kandula, S. Telkar, S. Koteswari, K. C. Pidugu, M. A. Kumar and S. Jyothi, " Simulation Framework for Image Processing Operations Using MATLAB and Verilog," 2025 7th International Conference on Electrical Information and Communication Technology (EICT), Khulna, Bangladesh, 2025, pp. 1-7
+	•	Meghamala Y, Pulipati John Paul, M Aravind Kumar (2025), A Multi-Agent Deep Reinforcement Learning Framework for MEC Resource Allocation in 5G Networks. IJEER 13(4), 909-919. DOI: 10.37391/IJEER.130431.
+	•	Madhusudhan, Kuruba, and Aravind Kumar Madam. "A Novel Multi‐Wavelet Oriented Auto‐Encoder for Intrusion Detection in IoT System." Transactions on Emerging Telecommunications Technologies 36.7 (2025): e70202.
+	•	Bala Sindhuri Kandula, G. Challa Ram, Sangeeta Singh, Subhashini Tata, R. Prameela Devi, M. Aravind Kumar “Design and Simulation of Core Image Processing Techniques Using MATLAB and Verilog” Proceedings of the 9th International Conference on Electronics, Communication and Aerospace Technology (ICECA-2025), DVD Part Number: CFP25J88-DVD; ISBN: 979-8-3315-9928-7.
+	•	K. Madhusudhan and A. K. Madam, "A Self-Attention Assisted Capsule Network for Optimized Intrusion Detection in Communication Networks," 2025 International Conference on Intelligent and Cloud Computing (ICoICC), Bhubaneswar, India, 2025, pp. 1-6, doi: 10.1109/ICoICC64033.2025.11052014.
+	•	Sindhuri Kandula, B. et al. (2025) ‘FPGA design of an efficient divide-and-conquer multiplier based on multiple stage fast ripple hybrid adders for peak cancellation with IIR filters’, International Journal of Electronics, pp. 1–22. doi: 10.1080/00207217.2025.2500779.
+	•	Srinivas, Yallapu, and Madam Aravind Kumar. "Robust multi-modal COVID-19 medical image registration using dense deep learning descriptor model." Biomedical Signal Processing and Control 100 (2025): 107007.
+	•	Gade, Venkata Subba Reddy, et al. "BMO based improved Lite Swin transformer for brain tumor detection using MRI images." Biomedical Signal Processing and Control 92 (2024): 106091.
+	•	M. Aravind Kumar and Lakshmi Narayana T., Jacobian-Based Nonlinear Algorithms for Prediction of Optimized RF MEMS Switch Dimensions, Transactions on Electrical and Electronic Materials, TEEM-D-22- 00099, 2023. 
+	•	M. Aravind Kumar and Samuyelu Bommu., Smart City IoT System Network Level Routing Analysis and Blockchain Security Based Implementation, Journal of Electrical Engineering & Technology, Springer Nature, DOI:10.1007/s42835-022-01239-4, August 2022. 
+	•	M. Aravind Kumar and K. Manjunatha Achari., Noise Reduction Using Modified Wiener Filter in Digital Hearing Aid for Speech Signal Enhancement. Journal of Intelligent Systems. April 2019. 
+	•	M. Aravind Kumar, Srinivas bachu., Bag-of-Surf and Spatial Pyramid Matching for Food Recognition and calorie Extraction. IJRTE: May 2019. ISSN: 2277-3878.
+	•	M. Aravind Kumar and K. Manjunath Achari, Efficient FPGA-Based VLSI architecture for detecting R-Peaks in Electrocardiogram signal by combining Shannon energy with Hilbert transform. IET signal processing, Volume 12, Issue 6 August 2018, p. 748-755, DOI:10.1049/iet-spr.2017.0201. SCI Indexed Free Journal. 
+	•	M. Aravind Kumar and K. Manjunath Achari., Efficient Audio Noise Reduction System Using Butterworth Chebyshev and Elliptical Filter, International Journal of Multimedia and Ubiquitous Engineering Vol.12, No.1 (2017), p. 225-238. http://dx.doi.org/10.14257/ijmue.2017.12.1.19. 
+	•	Aravind Kumar and K. Manjunath Achari., An efficient pipelined architecture for real-valued Fast Fourier Transform, International Journal of Electronics, 104:4,692-708, Taylor & Francis International Journal of Electronics: January 2017. DOI: 10.1080/00207217.2016.1242165.
+	•	Khadri, Shruthi, Naveen K. Bhoganna, and Madam Aravind Kuma. "IoT driven joint compressed sensing and shallow learning approach for ECG signal-reconstruction." Indonesian Journal of Electrical Engineering and Computer Science 34.1 (2024): 666-676.
+	•	 Thalluri, Lakshmi Narayana, et al. "RF MEMS switch optimization using ANN and design of antenna with frequency reconfigurability." Microsystem Technologies (2024): 1-12.
+	•	M. Aravind Kumar and Phani Ramakrishna., A New MRI Images Segmentation Using Optimized Weighted FCM with Kinetic Gas Molecular Optimized UNET, Research on Biomedical Engineering, EMID: 36546abc3b261292.
+	•	M. Aravind Kumar, Srinivas Bachu., Early Detection of Diabetic Foot Ulcer by using IOT Technology, i- manager’s Journal on Future Engineering and Technology (JFET), August 2017, Volume 13, Issue 1. ISSN: 2319-5940.
+	•	M. Aravind Kumar, Srinivas Bachu., Implementation of Color Image Segmentation Using Watershed Algorithm, i-Manager’s JIP, Volume 3, Issue 4, December 2016. ISSN: 2349-6827.
+	•	M. Aravind Kumar, P. Sivananth Maitrey, K. Rameshchandra, Adaptive Hearing Aid Algorithm using different types of multiplier, International Journal of Application in Engineering & Management, Volume 5, Issue 2, February 2016, ISSN 2319 – 4847.
+	•	M. Aravind Kumar, Ranga Rao, M. Dileep, C V P K Reddy, K. P. Mani, Performance Evaluation of Different Multipliers in VLSI using VHDL, International Journal of Advanced Research in Computer & Communication Engineering, Vol. 5, Issue 3, March 2016.
+	•	M. Aravind Kumar, Synthesis of a MSP430 Microcontroller Core using Multi-Voltage Techniques, (IJETT) Volume 4 Issue 7 - July 2013, ISSN (Online): 2231-5381, Page 2779 -2784.
+	•	M. Aravind Kumar, Simulation & Synthesis of a Cryptography Processor for Portable Electronic Devices, (IJECCE) Volume 4, Issue 4, 2013. ISSN (Online): 2249–0711.
+	•	Susrutha Babu Sukhavasi, Suparshva Babu Sukhavasi, S.R. Sastry K, M. Aravind Kumar, P. Bose Babu, G.R.K. Chandra, A Primitive Polynomial to Define the Finite Field Modules for High-Throughput Interpolator to Encode and Decode Of Non Binary Cyclic Codes, International Journal of Modern Engineering Research, Vol. 2, Issue. 4, July-Aug 2012, pp-2938-2946.
+	•	Susrutha Babu Sukhavasi, Suparshva Babu Sukhavasi, S.R. Sastry K, M. Aravind Kumar, Ranga Rao Orugu, P. Bose Babu, Design of Modules to Implement a Structure by Discrete Reckoning Codes for Embedding into Video Coding Testing Applications, International Journal of Modern Engineering Research, Vol. 2, Issue. 4, July-Aug 2012, pp-2867-2875.
+	•	B. Raghukanth, S.R. Sastry Kalavakolanu, M. Aravind Kumar, D.N.B. Babu, JPEG image compression using verilog, International Journal of Engineering Science and Advanced Technology, Volume-2, Issue-5, pp-1410–1415, ISSN: 2250–3676. 
+	•	Srinivas, Yallapu, and M. Aravind Kumar. "Exploring Prominent Convolutional Neural Network Frameworks to Identify COVID-19 Deceases by Using Medical Images." International Conference on Cognitive Computing and Cyber Physical Systems. Cham: Springer Nature Switzerland, 2024.
+	•	Yallapu, Srinivas, and Aravind Kumar Madam. "A Chest X-Ray Image Based Model for Classification and Detection of Diseases." International Conference on Cognitive Computing and Cyber Physical Systems. Cham: Springer Nature Switzerland, 2023.
+	•	M. Aravind Kumar, L.Sankar, K.Lalith, T.Bindu ,”Hand gesture recognition for vocal impaired community”Dogorangsang Research journal ISSN Num:2347-7180 
+	•	M. Aravind Kumar, L.Sankar,K.Sudharani,T.Bindu,” Automatic power meter ready system using GSM network” Dogorangsang Research journal ISSN Num:2347-7180 
+	•	M. Aravind Kumar, L.Sankar,B.Anusha ,K.Sudha rani,” IOT based greenhouse monitoring and controlling system” Dogorangsang Research journal ISSN Num:2347-7180 
+	•	M. Aravind Kumar, L. Sankar, K.M. Unnishabegum, K. Lalitha,” Industry parameters monitoring and controlling system based on embedded web server” Dogorangsang Research journal ISSN Num:2347-7180 
+	•	M. Aravind Kumar, K. P. Mani, P. Sai Teja, G. Sowjanya & V. L. S. Prakash Raju, “An FPGA-based 64-bit IEEE–754 double precision floating point adder/subtractor and multiplier using VHDL” International Journal of Multidisciplinary Research and Modern Education (IJMRME) ISSN (Online): 2454 - 6119 Volume II, Issue I, 2016.
+	•	G.Prasannakumar, M. Aravind Kumar,Satyanarayanamurty.P,” Radix 2/24 and 2/25 Split Radix fast fourier transform designs for Reduced multipliers with Twiddle factor Approximation” Industrial Engineering Journal:ISSN No:0970-2555.
+	•	Dr.M.Aravindkumar, L.Sankar,Sk.M.unnishabegum,K.Sudha rani,” IOT based Anaesthesia injector through robot” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	Dr.M.Aravindkumar, L.Sankar,T.Bindu,K.Lalitha”Fast image encryption based on random image key” Industrial Engineering Journal:ISSN No:0970-2555.
+	•	Dr.M.Aravindkumar, L.Sankar,B.Anusha,K.M.Unnisha begum,” IOT based Virtual doctor Robot” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	Dr.M.Aravindkumar, L.Sankar,B.Anusha, K.Sudha rani,” Low cost IOT based smart Agriculture system” Industrial Engineering Journal:ISSN No:0970-2555.
+	•	Lakshmi Narayana Thalluri, KiranmaiBabburu, Aravind Kumar Madam, KV. Kumar, G.V.GaneshKonari, Koushik Guha, Md. Baig Mohammad, S. S. Kiran,  Addepalli V. S. Y. Narayana Sarma & “Automated face recognition system for smart attendance application using convolutional neural networks” . Int J Intell Robot Appl (2024). https://doi.org/10.1007/s41315-023-00310-1.
+	•	Shruthi khadri,Naveen k Bhoganna,Madam Aravind kumar“BIOMEDICAL SIGNAL COMPRESSION USING DEEP LEARNING BASED MULTI TASK COMPRESSED SENSING” indonesian journal of electricalengineering and computer science,” DOI: http://doi.org/10.11591/ijeecs.v33.i1.pp63-70.
+	•	Dr.Srinivasbachu, Dr.Thirukrishna janakithangaraj, Dr.Anuradha thangavelu, Dr.Pasupuletibaburao, Aravindkumar madam, “Machine learning based health monitoring wearable device design” num:6319898.
+	•	M.AravindKumar,N.L.Tejaswini, J. Sri Mahalakshmi, S.Chandra Kumari,” Smart Control of Traffic Light using Deep Learning” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	Dr.M.Aravindkumar, P.Sheela, Karishma Mehaboob, G.Phani Madhuri, N.Ratnachaitanya,” Forecasting Energy Consumption Using ARIMA Models” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	M.Aravind Kumar,P.Sheela, N.L.Tejaswini, J. Sri Mahalakshmi,” Facial Emotion Recognition using CNN” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	M.Aravind Kumar, T.Durga Devi, D.Rani, K.Krishna,” Brain Tumor Image Segmentation using Deep Networks” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	Dr.M.Aravindkumar, K. Chandra Sekhar, Ch.Mani, Sk. Razia Begum,” Missing Child Identification System using Deep Learning and Multi class SVM” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	Dr.M.Aravindkumar, M.Chilakaiah, J. Sri Mahalakshmi, D.Haritha,” Fake Currency Detection using Image Processing and Deep Learning” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	M.AravindKumar,N.L.Tejaswini, J. Sri Mahalakshmi, P.Syam Prasad,” Image Stegnography using LSB Algorithm” Industrial Engineering Journal:ISSN No:0970-2555. 
+	•	A. H. Lal, E. Sreenivasulu, M. A. Kumar and S. Bachu, "Implementation of Brain Tumor Detection with Deep Learning Classification Using Hybrid Feature Extraction," 2022 First International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT), Trichy, India, 2022, pp. 1-5, doi: 10.1109/ICEEICT53079.2022.9768532.
+	•	M. Jhansi, S. Bachu, N. U. Kumar and M. A. Kumar, "IODTDLCNN: Implementation of Object Detection and Tracking by using Deep Learning based Convolutional Neural Network," 2022 First International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT), Trichy, India, 2022, pp. 1-6, doi: 10.1109/ICEEICT53079.2022.9768632.
+	•	N. Shivakumar, N. U. Kumar, S. Bachu and M. A. Kumar, "Remote Sensing and Natural Image Dehazing using DCP based IDERS Framework," 2022 First International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT), Trichy, India, 2022, pp. 01-05, doi: 10.1109/ICEEICT53079.2022.9768593.
+	•	M. N. Venkata Akanksha, S. Bachu, M. A. Kumar and N. U. Kumar, "Implementation of Potential Leukemia Detection using Recurrent Neural Networks with Blood Cell Counting," 2022 First International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT), Trichy, India, 2022, pp. 1-5, doi: 10.1109/ICEEICT53079.2022.9768569.
+	•	M. Aravind Kumar, K. Rameshchandra and S. Bachu, "FRCAPE: Frequency Re-configurable Co-planar Antenna Using Parasitic Elements," 2020 IEEE International Conference on Advent Trends in Multidisciplinary Research and Innovation (ICATMRI), Buldhana, India, 2020, pp. 1-5, doi: 10.1109/ICATMRI51801.2020.9398416.
+	•	N, D., G, M., S B, M., and Kumar, M. "Design and Technological Investigation of Autonomous Underwater Vehicle Systems", Int. J. of Aquatic Science, 12, 2, 2021, 4997-5001.
+
+
+International Conferences
+
+	•	Recently Presented a paper with title “AI-IoT Integrated Smart Solar Energy Forecasting and Optimization System.” in the 4th NEUIT's International Conference on Communication, Electronics and Digital Technologies(NICEDT-2026) held on 29th -30th January,2026.
+	•	Presented a paper with title “Design and Simulation of Core Image Processing Techniques Using MATLAB and Verilog” in the 9th International Conference on Electronics, Communication and Aerospace Technology (ICECA-2025), during 5-7 November 2025.
+	•	Presented a paper with title "A Self-Attention Assisted Capsule Network for Optimized Intrusion Detection in Communication Networks," in the 2025 International Conference on Intelligent and Cloud Computing (ICoICC), Bhubaneswar, India, 2025, during 2-3 May, 2025.
+	•	Presented a paper entitled "Adaptive Resource Allocation Framework with Advanced Technologies for Enhanced 5G Mobile Network Performances" at the 2nd International Conference on Machine Learning and Autonomous Systems (ICMLAS 2025), organized by Stamford International University, Bangkok, Thailand on 10-12th March 2025.
+	•	M. Aravind Kumar and Srinivas Yallapu presented a paper titled "Exploring Prominent Convolutional Neural Network Frameworks to Identify COVID-19 Deceases by Using Medical Images" at the International Conference on Cognitive Computing and Cyber Physical Systems. Cham: Springer Nature Switzerland, 2024.
+	•	Aravind Kumar, “Literature review on The Design and Development of metamaterial based antenna for medical applications”, International Conference on Advancement in VLSI and Signal Processing, Vignan's Institute of Management and Technology for Women, Hyderabad.
+	•	Aravind Kumar, “Literature Survey on Class C Power Amplifier Design At X Band Regime”, International Conference on Advancement in VLSI and Signal Processing, Vignan's Institute of Management and Technology for Women, Hyderabad.
+	•	Aravind Kumar, “Literature survey on Low noise amplifier at x- band frequency”, International Conference on Advancement in VLSI and Signal Processing, Vignan's Institute of Management and Technology for Women, Hyderabad.
+	•	Aravind Kumar, “Literature Review on CMOS Counter With 4 Bit Synchronous Nature At 45NM Technology”, International Conference on Advancement in VLSI and Signal Processing, Vignan's Institute of Management and Technology for Women, Hyderabad.
+	•	Aravind Kumar, “Literature Survey on Compact KA- Band NXN Sub- Array With Truncated Corner Patch Antennas For Circular Polarization”, International Conference on Advancement in VLSI and Signal Processing, Vignan's Institute of Management and Technology for Women, Hyderabad.
+	•	Aravind Kumar, “A Literature review on 8X8 mimo Antennas for compact 5G”, International Conference on Advancement in VLSI and Signal Processing, Vignan's Institute of Management and Technology for Women, Hyderabad.
+	•	Presented paper titled “Conceptual Study of Breakthrough Technology for Free-Space Laser Satellite Communication Between Micro and Geo-Satellites” in the International Conference on Recent Advances in Science and Engineering Technology (ICRASET-2024), Adichunchanagiri University, Karnataka, November 2024.
+	•	Srinivas Yallapu, Aravind Kumar, “A Chest X-RAY Image based model for classification and detection of diseases”, Social Informatics and Telecommunications Engineering, vol. 536. Springer, Cham. https://doi.org/10.1007/978-3-031-48888-7_36.
+	•	Molagavalli Jhansi, Srinivas Bachu, Naluguru Udaya Kumar, M. Aravind Kumar, “Implementation of Object Detection and Tracking by Using Deep Learning Based Convolutional Neural Networks”, DOI: 10.1109/ICEEICT53079.2022.9768632.
+	•	Nakka Shivakumar, N.U. Kumar, S. Bachu, M. Aravind Kumar, “Remote Sensing and Natural Image Dehazing using DCP based IDERS Framework”, DOI: 10.1109/ICEEICT53079.2022.9768593.
+	•	M.N. Venkata Akanksha, Srinivas Bachu, M. Aravind Kumar, Naluguru Udaya Kumar, “Implementation of Potential Leukemia Detection Using Recurrent Neural Networks with Blood Cell Counting”, DOI: 10.1109/ICEEICT53079.2022.9768569.
+	•	Lal, Amgoth Harichandar et al., “Implementation of Brain Tumor Detection with Deep Learning Classification Using Hybrid Feature Extraction”, 2022 First International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT), 1–5.
+	•	M. Aravind Kumar, K. Rameshchandra, and S. Bachu, "FRCAPE: Frequency Re-configurable Co-planar Antenna Using Parasitic Elements," 2020 IEEE International Conference on Advent Trends in Multidisciplinary Research and Innovation (ICATMRI), Buldhana, India, pp. 1–5. DOI: 10.1109/ICATMRI51801.2020.9398416.
+	•	M. Aravind Kumar and Srinivas Bachu, “Design and Analysis of 3 Element MIMO Antennas with Pattern and Polarization Diversity for Wireless Applications”, ICECEIC, SCSVMV, Kanchipuram, January 2019, IEEE ISBN: 978-1-7281-0174-3/19.
+	•	M. Aravind Kumar and K. Manjunath Achari, “An Efficient VLSI Architecture Decimation-in-Frequency Fast Fourier Transform Algorithm for Real-Valued Data”, NCRAE-2017, IFHE University, Vol. 2, pp: 137–141, February 24–25, 2017.
+	•	M. Aravind Kumar and K. Manjunath Achari, “Adaptive Filtering Techniques for PLI, Motion Artifacts, Baseline Wandering, Removal in ECG Signal”, Proceedings of National Conference on ETET-2016.
+	•	M. Aravind Kumar and K. Manjunath Achari, “Complex Multiplier Implementation of Pipelined FFTs in FPGAs”, SPACES-2015, IEEE Catalog Number: CFP1568Z-ART, ISBN: 978-1-4799-6109-2.
+	•	M. Aravind Kumar and K. Manjunath Achari, “Leakage Mitigation Techniques in Nanometer Scaled Transistors”, Proceedings of National Conference on ICPVS, March 2014.
+	•	M. Aravind Kumar and Dr. I.A. Pasha, “Multi Vt – A Low Power Reduction Technique for RISC Core”, Proceedings of National Conference on ICAICV-10, August 2010, Volume 2, page 92.
+	•	M. Aravind Kumar and Dr. I.A. Pasha, “A Low Power Reduction Technique Multi-Vt for RISC Core”, Proceedings of National Conference on ICESPVLSI, June 2010, Volume 1, Page 51.
+ Editorial Board Member 
+
+	•	Biomedical Signal Processing and Control – Elsevier’s Editorial Manager. 
+	•	Reviewer Board Member IET- Signal Processing. 
+	•	IGI Global Journal: Computer Vision and Image Processing.
+	•	International Journal of Engineering Trends & Technology (IJETT). 
+	•	International Journal of Multidisciplinary Research and Modern Education (IJMRME).
+	•	International Journal of Research in Engineering and Technology (IJRET). 
+	•	International Journal of Advances in Engineering Research (IJAER), IJISE and IJRST, IRA Publications, UP. 
+	•	Journal of Soft Computing and Engineering Applications (JSCEA).
+	•	International Conference on ICIECE 2016, ICIECE 2018 & 2019 at GNITC (Autonomous). 
+
+Workshops Organized 
+
+	•	Two-day Workshop on “Ethical Hacking and cyber security (Level – 1)” conducted by “Supraja Technologies” held at Grandhi Varalakshmi Venkatarao Institute of Technology, Bhimavaram during 27- 28th December 2019. 
+	•	Convener, One Week Workshop on “Machine Learning with Python” at GVVR Institute of Technology, Bhimavaram on 25-09-19 to 01-10-19. 
+	•	Coordinator, A Two-Day National Level Workshop on " FPGA Architecture and Design Flow’” at Vishnu Institute of Technology, Bhimavaram on 13-03-14 to 14-03-14. 
+	•	Co-Convener, Workshop on “Trends in Soft Computing and Its Tools” at Vishnu Institute of Technology, Bhimavaram on 15-02-14 to 16-02-14. 
+
+Workshops/Trainings attended 
+
+	•	6-day Faculty Development Program On "Revolutionizing Education with Generative AI: Teaching and Learning Strategies" held from 10th-15th, March,2025 Organized by the Departments of CSF, IT, CSE(AD), CSE(AI&ML), CSE(DS), CSE(CS), MCA & ECE at Narasaraopeta Engineering College(NEC) in Collaboration with Blackbucks Group.
+	•	Participated in three days online “DRONE BOOT CAMP” organized by Department of Electronics and Communication Engineering, Dhanekula Institute of Engineering and Technology, Ganguru, Vijayawada in association with Dronix Israel during 26-10-2023 to 28-10-2023.
+	•	Attended Five Day short-term training Program on “Entrepreneurship and Start-Ups” conducted by NITTTR, Bhopal during 22nd June to 26th June,2020.
+	•	Participated in the webinar on “IPR and IP Management for Innovation and Start-ups” presented by Mr.O.Prasad Rao, Deputy Controller of Patents and Design, IP India, Govt.of India on 15.05.2020organised by IIC, R.M.K. ENGINEERING COLLEGE RSM Nagar, Kavaraipettai-601206.
+	•	Attended Two-day Training on "Pre- Incubations & Incubation Management" conducted as part of IICInnovation Ambassador Training Series Organized by Institution’s Innovation Council of MHRD’s Innovation Cell, AICTE held at MLR Institute of Technology, Hyderabad, Telangana during 6-7th February 2020. 
+	•	Attended one day Seminar on “Quality Assurance & Sustenance in Higher Education Institutions (HEIs)” (QASH) jointly organized by IQAC & Academic College (ASC) at KL University, Guntur held on 30-11-19. 
+	•	Attended Three days Training on “Courageous Principal Program'' jointly organized by Deloitte University & APSSDC at Deloitte Office, Hyderabad held on 27-11-19 to 29-11-19. 
+	•	Workshop on “Software Tools for Research Publications & Patent Filing” Organized by Sri Vasavi Engineering College at Tadepalligudem on 11-11-19 to 13-11-19. 
+	•	Workshop on “Funding Opportunities for Innovation and Entrepreneurship Development” Jointly Organized by Institution’s Innovation Council Unom, TOCIC, DSIR, Government of INDIA and RMK Engineering College at Tamil Nadu on 09-11-19. 
+	•	Three Day National level workshop on “Outcome Based Education (OBE)” Organized by University College of Engineering Kakinada on 31-10-19 to 02-11-19. 
+	•	Two Day National Level Workshop on “Quality Enhancement Measures in Higher, Technical, Professional and Management Educational Institutions with Special Focus on NIRF INDIA Rankings”Organized by Jawaharlal Nehru Technological University at Hyderabad on 18-10-19 to 19-10-19. 
+	•	Sponsored One Week Faculty Development Programme “Machine Learning Techniques for Image Processing and Computer Vision” organized by Electronics & ICT Academy, NIT Warangal at Department of CSE from 06-05-2019 to 11-09-2019.
+	•	Sponsored One Week Faculty Development Programme “Speech and Image Processing” organized by Electronics & ICT Academy, NIT Warangal at Department of ECE on 28-06-2018 to 11-09- 2018.
+	•	“HAMFEST INDIA 2018”, 27th National HAM Radio Operators meet held on 29-12-18 to 30-12- 2018 at REVA University, Bangalore. 
+	•	Sponsored One Week Faculty Development Programme “Signal and Image Processing with MATLAB” organized by Electronics & ICT Academy, NIT Warangal at Department of ECE, S.R.K.R Engineering College on 03-07-2017 to 08-07-2017. Obtained “A Grade”.
+	•	Workshop on “MATLAB EXPO 2017” Conducted by MathWorks, Hyderabad in April 2017. 
+	•	Workshop on “Research Methodologies” collaboratively conducted by ISTE at GITAM University, Hyderabad in November 2013. 
+	•	Workshop on “Advanced Research Methods and Trends” collaboratively conducted by ISTE at GITAM University, Hyderabad on October 2013.
+	•	National Level Workshop on “FPGA Synthesis and Simulation Using XILINX Tools” at ALIET, Vijayawada on 18-08-13 to 19-08-2013. 
+	•	“National program on Technology enhanced learning” organized by IIT Madras at NIT Warangal on 31-08- 2012 to 01-09-2012. 
+
+Community Service Activities 
+
+	•	Delivered an expert lecture on “Career Guidance” at Bhimavaram Institute of Engineering & Technology on November 02, 2018.
+	•	Delivered a Guest Lecture on “Digital Design Through Verilog” at NSR Institute of Technology, Visakhapatnam on August 03, 2019.
+	•	Establishment of Institution Innovation Council (IIC) as per the norms of MHRD’s Innovation Cell at GVVR Institute of Technology, Bhimavaram on September 11, 2019.
+	•	Participated in the Lamakaan Annual Radio Convention organized by the Lamakaan Amateur Radio club in association with the ECE Department at Muffakham Jah College of Engineering & Technology during December 21–22, 2019.
+	•	Delivered a guest lecture on “VLSI Design” for III B.Tech (ECE) students at the Department of ECE, Marri Laxman Reddy Institute of Technology and Management (Autonomous), Hyderabad on November 14–15, 2021.
+	•	Delivered a technical session on “Image Compression using Python” at Gonna Institute of Information Technology & Sciences, Parawada, Anakapalli 530053 during March 03–12, 2022.
+	•	Delivered a talk on “Adaptive and Mobile Visualization: Exploring Modern Development in Data Visualization” at Gonna Institute of Information Technology & Sciences, Parawada, Anakapalli 530053 during October 12–17, 2022.
+	•	Delivered a guest lecture on “Linear and Digital IC Applications” for III B.Tech (ECE) students at the Department of ECE, Marri Laxman Reddy Institute of Technology and Management (Autonomous), Hyderabad on October 29, 2022.
+	•	Delivered an expert lecture on “Digital Image Processing” at Bhimavaram Institute of Engineering & Technology on December 22, 2022.
+	•	Served as a resource person for the One Day Workshop on “Research Paper Writing – 2023” at Siddhartha Institute of Technology & Sciences (Autonomous), Ghatkesar, Hyderabad on February 13, 2023.
+	•	Delivered a guest lecture on “Biomedical Image Processing” for III B.Tech (ECE) students at the Department of ECE, Marri Laxman Reddy Institute of Technology and Management (Autonomous), Hyderabad during October 24–25, 2023.
+	•	Participated as a speaker in a Faculty Development Program on “Emerging Trends in VLSI” at Bhimavaram Institute of Engineering & Technology during September 09–14, 2024.
+	•	Delivered an expert lecture on “Analyzing COVID Images Using Deep Learning” at Gonna Institute of Information Technology & Sciences, Parawada, Anakapalli 530053 during April 25 – May 05, 2024.
+	•	Delivered an invited talk on “Robust Multimodal COVID-19 Medical Image Registration using Dense Deep Learning Descriptor Model” in a One Week Faculty Development Program on “Applications in Signal Processing and Communication Systems” organized by the Department of EEE & ECE, Gonna Institute of Information Technology & Sciences on May 03, 2024.
+	•	Invited as a Subject Expert for the Faculty Ratification process by an autonomous institution affiliated with JNTUK, Kakinada. Contributed to academic quality assessment and faculty selection in Electronics and Communication Engineering on December 02, 2024.
+Mentoring Experience 
+
+	•	Undergraduate research advisor (36 undergraduate students), GVVIT (2014-till date).
+	•	Undergraduate research advisor (3 undergraduate students), VIT (2013).
+	•	Undergraduate research advisor (9 undergraduate students), ALIET (2010-12).
+	•	Postgraduate research advisor (2 postgraduate students), VIT (2013).
+
+Membership in Professional Bodies 
+
+	•	Life Member, Indian Society for Technical Education (ISTE) - LM106059.
+	•	Member, Science and Engineering Institute (SCIEI) -20180806002.
+	•	Member, Institute for Engineering Research and Publication (IFERP) - PMIN83915026. 
+	•	Member, Society of Digital Information and Wireless Communications (SDIWC)-3817.
+	•	Member, Institution of Electronics and Telecommunication Engineers (IETE) -501602. 
+	•	Member, Institute of Engineers, India, Kolkata. (IE) - AM1616652.
+	•	Member, International Association of Engineers, Hong Kong. (IAENG) – 124450.
+	•	Member, Universal Association of Computer & Electronics Engineers (UACCE). - AM1010003037.
+
+Academic / Administration Responsibilities 
+
+	•	Appointment as Examiner for evaluation of Ph D Thesis for the university Adichunchanagiri
+	•	Allotment of Research Scholar for Guidance in various universities such as BESTIU and The ICFAI University, Raipur.
+	•	Successfully completed NAAC Accreditation.
+	•	Attained 2(f) status under UGC recognition.
+	•	Achieved Autonomous Institution status.
+	•	Ratification of faculty members completed.
+	•	Secured permanent affiliation from the university.
+	•	Faculty Research Publication In-charge for NBA and NAAC Work at VIT, Bhimavaram.
+	•	Criteria 2 & 9 Member for the NBA Accreditation work at VIT Bhimavaram. 
+	•	Worked as Managing Staff Member of Examination Branch, Internal Quality Assurance Cell at GVIT, Bhimavaram, June 2014 – Till Date. 
+	•	Timetable Co-Ordinator from 2014 to till date GVIT, Bhimavaram. 
+	•	Attendance In-Charge from June 2014 to till date. 
+	•	Class Mentor from June 2014 to till date. 
+	•	Co-ordinator for various Technical Activities (Engineers Day, Technical Fest, and Paper Presentation) at GVIT Bhimavaram from 2014-2018.
+
+Awards & Achievements 
+
+	•	Received the Dr. Sarvepalli Radhakrishnan Best Teacher Award 2025 from SOLETE International Awards for outstanding contributions to teaching and academic leadership.
+	•	Life Member, Society for Learning Technologies (SOLETE), India, Membership ID: LM613 | Reg. No 186/2020, Recognized for advancing quality and standards in Science & Technical Education.
+	•	Recognized with a Certificate of Appreciation by NxtWave for outstanding leadership and coordination in organizing the NxtWave AbroadConclave on December 13, 2024.
+	•	Awarded as Certified Chief Innovation Officer by Rocheston, New York.  
+	•	Certified with the “Restricted Grade Ham Radio license” from the Ministry of Communications Department of Telecommunications and Wireless Monitoring Organization by the Government of India. 
+	•	National Educational Excellence Award from Global Management Council -GLACIER JOURNAL 
+	•	RESEARCH foundation, AHMEDABAD in November 2017. 
+	•	Best Young Researcher Award from IASTE Awards at Chennai in September 2017. 
+	•	Best Placement Officer Award from the IEG, Hyderabad in the academic year 2006-2007. 
+	•	Best Placement Officer Award from the IEG, Hyderabad in the academic year 2007-2008. 
+	•	Received the “Certification of Appreciation” from GVVIT, Management for Publishing Textbook on MATLAB for Beginners at LAP Lambert Academic Publishing, Germany.
+
+Research Guidance
+
+	•	Guided seven Research scholars as follows 
+Sl. No
+Name of the Student/Scholar
+Hall Ticket No.
+Awarded
+1
+Shruthi K
+2020PEC073
+Awarded
+2
+Srinivas Yallapu
+ECE02PHD2021
+NO
+3
+Kuruba Madhusudhan
+ECE04PHD2021
+NO
+4
+Manohar Babu Barla
+ECE21W01
+NO
+5
+Bachu Yesobu
+2022PECE023
+NO
+6
+Shaik John, 
+2024PECE021
+NO
+7
+Namburi Venkata Lakshmi 
+2024PECE022
+NO
+8
+Sugali Viswanath Naik Batch
+2024PECE024
+NO
+9
+Shah Mohd Aliuddin 
+2024PECE011
+NO
+11
+Gelli Ram Sundeep 
+2024PECE012
+NO
+12
+M. Krishna Bhogapurapu
+2024WPECE002
+NO
+
+
+
+
+
+
+Research Grants
+	•	Received as a convener 4.5 lakhs Rupees from the Ministry of Electronics and Information Technology.
+	•	Received as coordinator 50,000 Rupees from Unnat Bharath Abyaan.
+	•	Received 10 lakhs Rupees worth of Consultancy project from ASA solutions.
+	•	Received as coordinator 1,00,000 Rupees from Gona Institute of Technology for Accreditation Support.
+
+ORCID ID:0000-0003-4718-5738
+SCOUPS ID:58829329300
+GoogleScholarID:https://scholar.google.com/citations?hl=en&user=bHvIWtoAAAAJ&scilu=&scisig=ACUpqDcAAAAAaDk7k0j9XoZRahTz_iuaHD0L96g&gmla=AH8HC4z3LoKCL3Nwxjq4zg5bQ21PpccY6-9gzuKeBhtPOTNBg23ny7KLEIQuKfzWlIq2KvfRKQm95DEXlxU5kNtAuFEx8JgztFXzMIB1_rM&sciund=5868159360230330197
+Address for communication:	
+Flat no: 101,	
+Lords square Apartment, 
+Currency Nagar-3, 
+Vijayawada, 
+NTR District.
+
+Date: 19.11.2025,                                                                                                           
+Place: Vijayawada.                                                                                                        (M.Aravind Kumar)

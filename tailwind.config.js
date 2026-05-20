@@ -7,15 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#1e40af",
-        background: "#f8fafc",
-        content: "#ffffff",
-        textPrimary: "#1e293b",
-        textSecondary: "#64748b",
-        border: "#e2e8f0"
+        primary: "var(--primary)",
+        background: "var(--background)",
+        textPrimary: "var(--text-primary)",
+        textSecondary: "var(--text-secondary)",
+        border: "var(--border)"
       },
       fontFamily: {
-        sans: ['Inter', 'Roboto', 'sans-serif'],
+        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
       }
     },
   },
