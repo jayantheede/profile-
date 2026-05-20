@@ -231,6 +231,13 @@
     "awards": [
       {"title": "Awards Proofs", "url": "/documents/Awards Proofs.pdf"}
     ]
-  }
+  },
+  "gallery": [
+    { "url": "/gallery/PHOTO-2026-05-20-16-38-09.jpg", "caption": "SOLETE International Awards 2025" },
+    { "url": "/gallery/PHOTO-2026-05-20-16-38-09 2.jpg", "caption": "Dr. Sarvepalli Radhakrishnan Best Teacher Award" },
+    { "url": "/gallery/PHOTO-2026-05-20-16-42-15.jpg", "caption": "Awards Ceremony Moment" },
+    { "url": "/gallery/PHOTO-2026-05-20-16-42-15 2.jpg", "caption": "Honoring Excellence in Teaching" },
+    { "url": "/gallery/PHOTO-2026-05-20-16-42-15 3.jpg", "caption": "Certificate of Honor Presentation" }
+  ]
 }
 

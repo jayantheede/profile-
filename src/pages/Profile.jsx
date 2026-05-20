@@ -3,7 +3,7 @@ import { motion, AnimatePresence, useScroll, useSpring, useTransform } from 'fra
 import { 
   Building2, MapPin, Mail, Phone, ExternalLink, 
   BookOpen, Users, Trophy, BookMarked, BrainCircuit,
-  Link as LinkIcon, GraduationCap, Award, FileText,
+  Link as LinkIcon, GraduationCap, Award, FileText, Image as ImageIcon,
   ChevronRight, ArrowRight, Code, Hash, Globe
 } from 'lucide-react';
 import { 
@@ -26,20 +26,28 @@ const SectionBadge = ({ text }) => (
   </span>
 );
 
-const PremiumBadge = ({ label, value, color, icon: Icon }) => (
-  <motion.div 
-    whileHover={{ y: -5, scale: 1.02 }}
-    className="flex flex-col glass-card rounded-2xl overflow-hidden min-w-[140px] transition-all hover:shadow-2xl hover:shadow-primary/10 group bg-white/40 backdrop-blur-xl border-white/50"
-  >
-    <div className={`text-[10px] font-bold px-4 py-2 border-b border-black/5 flex items-center justify-between ${color} text-white/90`}>
-      {label}
-      {Icon && <Icon className="w-3 h-3 opacity-50" />}
-    </div>
-    <div className="px-4 py-3 text-sm font-bold text-slate-800 truncate">
-      {value}
-    </div>
-  </motion.div>
-);
+const PremiumBadge = ({ label, value, color, icon: Icon, href }) => {
+  const content = (
+    <motion.div 
+      whileHover={{ y: -5, scale: 1.02 }}
+      className={`flex flex-col glass-card rounded-2xl overflow-hidden min-w-[140px] transition-all hover:shadow-2xl hover:shadow-primary/10 group bg-white/40 backdrop-blur-xl border-white/50 ${href ? 'cursor-pointer' : ''}`}
+    >
+      <div className={`text-[10px] font-bold px-4 py-2 border-b border-black/5 flex items-center justify-between ${color} text-white/90`}>
+        {label}
+        {Icon && <Icon className="w-3 h-3 opacity-50" />}
+        {href && <ExternalLink className="w-3 h-3 opacity-50 ml-2" />}
+      </div>
+      <div className="px-4 py-3 text-sm font-bold text-slate-800 truncate">
+        {value}
+      </div>
+    </motion.div>
+  );
+
+  if (href) {
+    return <a href={href} target="_blank" rel="noopener noreferrer" className="block">{content}</a>;
+  }
+  return content;
+};
 
 const ProgressBar = ({ percent }) => (
   <div className="relative w-full h-[6px] bg-slate-100 rounded-full overflow-hidden mt-3 shadow-inner">
@@ -135,12 +143,14 @@ function Profile() {
     { id: 'education_information_panel', label: 'Education', badge: 'Academic' },
     { id: 'metrics_information_panel', label: 'Metrics Overview', badge: 'Analytics' },
     { id: 'other_information_panel', label: 'Publications', badge: 'Papers' },
-    { id: 'achievements_information_panel', label: 'Patents & Awards', badge: 'Accomplishments' }
+    { id: 'achievements_information_panel', label: 'Patents & Awards', badge: 'Accomplishments' },
+    { id: 'gallery_panel', label: 'Event Gallery', badge: 'Photos' }
   ];
 
   const scrollToSection = (id, label) => {
     setActiveTab(label);
-    const element = document.getElementById(id);
+    setTimeout(() => {
+      const element = document.getElementById(id);
     if (element) {
       const offset = 120;
       const bodyRect = document.body.getBoundingClientRect().top;
@@ -153,6 +163,7 @@ function Profile() {
         behavior: 'smooth'
       });
     }
+    }, 50);
   };
 
   useEffect(() => {
@@ -267,9 +278,24 @@ function Profile() {
                 <div className="pt-4 space-y-4">
                   <SectionBadge text="Academic Identity" />
                   <div className="flex flex-wrap gap-3">
-                    <PremiumBadge label="ORCID" value={data.personal.ids.orcid} color="bg-[#A6CE39]" />
-                    <PremiumBadge label="Scopus" value={data.personal.ids.scopus} color="bg-[#E75112]" />
-                    <PremiumBadge label="Scholar" value={data.personal.ids.googleScholar} color="bg-[#4285F4]" />
+                    <PremiumBadge 
+                      label="ORCID" 
+                      value={data.personal.ids.orcid} 
+                      color="bg-[#A6CE39]" 
+                      href={`https://orcid.org/${data.personal.ids.orcid}`}
+                    />
+                    <PremiumBadge 
+                      label="Scopus" 
+                      value={data.personal.ids.scopus} 
+                      color="bg-[#E75112]" 
+                      href={`https://www.scopus.com/authid/detail.uri?authorId=${data.personal.ids.scopus}`}
+                    />
+                    <PremiumBadge 
+                      label="Scholar" 
+                      value={data.personal.ids.googleScholar} 
+                      color="bg-[#4285F4]" 
+                      href={`https://scholar.google.com/citations?user=${data.personal.ids.googleScholar}`}
+                    />
                   </div>
                 </div>
 
@@ -326,7 +352,9 @@ function Profile() {
             ))}
           </div>
 
-          <div className="space-y-16">
+        <div className="flex-1 min-w-0 pb-32">
+          
+          <div className={activeTab === 'Event Gallery' ? 'hidden' : 'space-y-12'}>
             
             {/* Biography */}
             <Panel id="personal_information_panel" icon={Users} title="Professional Profile" badge="Biography">
@@ -641,9 +669,39 @@ function Profile() {
 
               </div>
             </Panel>
-
           </div>
-        </main>
+
+          {/* Gallery Panel */}
+          {activeTab === 'Event Gallery' && data.gallery && data.gallery.length > 0 && (
+            <Panel id="gallery_panel" icon={ImageIcon} title="Event Gallery" badge="Moments">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {data.gallery.map((image, idx) => (
+                    <motion.div 
+                      key={idx}
+                      whileHover={{ scale: 1.02, y: -5 }}
+                      className="group relative rounded-3xl overflow-hidden shadow-lg border border-slate-100 bg-white"
+                    >
+                      <div className="aspect-w-4 aspect-h-3 w-full h-64 overflow-hidden">
+                        <img 
+                          src={image.url} 
+                          alt={image.caption} 
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        />
+                      </div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <p className="text-white font-bold text-sm leading-snug drop-shadow-md">
+                          {image.caption}
+                        </p>
+                      </div>
+                    </motion.div>
+                  ))}
+              </div>
+            </Panel>
+          )}
+
+        </div>
+      </main>
       </div>
 
       {/* Footer Branding */}
