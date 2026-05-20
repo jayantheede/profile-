@@ -4,7 +4,7 @@ import {
   Building2, MapPin, Mail, Phone, ExternalLink, 
   BookOpen, Users, Trophy, BookMarked, BrainCircuit,
   Link as LinkIcon, GraduationCap, Award, FileText,
-  ChevronRight, ArrowRight, Github, Twitter, Linkedin
+  ChevronRight, ArrowRight, Code, Hash, Globe
 } from 'lucide-react';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, 
@@ -77,6 +77,17 @@ const Panel = ({ id, icon: Icon, title, badge, children }) => (
   </motion.section>
 );
 
+const getViewerUrl = (url) => {
+  if (url.match(/\.(pdf|txt|png|jpg|jpeg)$/i)) return url;
+  if (typeof window !== 'undefined') {
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    if (isLocal) return url; // Will download locally
+    const absoluteUrl = new URL(url, window.location.origin).href;
+    return `https://view.officeapps.live.com/op/view.aspx?src=${encodeURIComponent(absoluteUrl)}`;
+  }
+  return url;
+};
+
 const DocumentsList = ({ documents, title = "Related Documents" }) => {
   if (!documents || documents.length === 0) return null;
   return (
@@ -89,7 +100,7 @@ const DocumentsList = ({ documents, title = "Related Documents" }) => {
         {documents.map((doc, idx) => (
           <motion.a
             key={idx}
-            href={doc.url}
+            href={getViewerUrl(doc.url)}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.02, y: -2 }}
@@ -219,7 +230,7 @@ function Profile() {
                   <img 
                     src={data.personal.image} 
                     alt={data.personal.name}
-                    className="w-48 h-48 rounded-full border-[8px] border-white shadow-lg object-cover bg-slate-100"
+                    className="w-48 h-48 rounded-full border-[8px] border-white shadow-lg object-cover object-top bg-slate-100"
                   />
                   <div className="absolute bottom-2 right-2 w-8 h-8 bg-emerald-500 border-4 border-white rounded-full shadow-md flex items-center justify-center" title="Available">
                   </div>
@@ -320,8 +331,8 @@ function Profile() {
             {/* Biography */}
             <Panel id="personal_information_panel" icon={Users} title="Professional Profile" badge="Biography">
               <div className="text-xl text-slate-700 leading-relaxed font-medium">
-                <p className="indent-8 first-letter:text-5xl first-letter:font-black first-letter:text-primary first-letter:float-left first-letter:mr-3">
-                  <strong>{data.personal.name}</strong> is an esteemed <strong>{data.personal.designation}</strong> in the {data.personal.department} at {data.personal.institution}. With a career dedicated to excellence in teaching and research, Dr. Kumar has pioneered significant advancements in his field.
+                <p>
+                  <strong className="text-primary text-2xl">{data.personal.name}</strong> is an esteemed <strong>{data.personal.designation}</strong> in the {data.personal.department} at {data.personal.institution}. With a career dedicated to excellence in teaching and research, Dr. Kumar has pioneered significant advancements in his field.
                 </p>
                 <motion.div 
                   whileHover={{ scale: 1.01 }}
@@ -640,7 +651,7 @@ function Profile() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[60vw] h-[60vw] bg-primary/10 rounded-full blur-[150px]"></div>
         <div className="max-w-[1400px] mx-auto px-8 relative z-10 text-center space-y-12">
            <div className="flex items-center justify-center gap-6">
-              {[Github, Twitter, Linkedin].map((Icon, i) => (
+              {[Code, Hash, Globe].map((Icon, i) => (
                 <motion.a 
                   key={i} 
                   whileHover={{ y: -5, scale: 1.1 }}
