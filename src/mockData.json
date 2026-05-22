@@ -29,6 +29,16 @@
       "title": "A voice and cognition-controlled advanced drone system",
       "number": "Germany Filing",
       "year": "2022"
+    },
+    {
+      "title": "Design and Performance Analysis of a Compact CPW-Fed Meandered Slot Antenna for Wireless Communication",
+      "number": "202641036604",
+      "year": "2026"
+    },
+    {
+      "title": "Design of a compact dual-band symmetric 2×1 cpw-fed circular patch array antenna for wlan applications",
+      "number": "202641042299",
+      "year": "2026"
     }
   ],
   "awards": [
@@ -199,7 +209,9 @@
     "experience": [
       {"title": "Advisory Committee Appointment", "url": "/documents/Appointment letter advisory committee member Dr Aravind.pdf"},
       {"title": "Guide Allotment Proofs", "url": "/documents/Guide Allotment proofs.pdf"},
-      {"title": "Invited Lectures Proofs", "url": "/documents/Invited Lectures Proofs.pdf"}
+      {"title": "Invited Lectures Proofs", "url": "/documents/Invited Lectures Proofs.pdf"},
+      {"title": "Resource Person - National Seminar on VLSI Design and Technology", "url": "/RC/VLSI Certificate.pdf"},
+      {"title": "FDP Certificate - Emerging Trends in Embedded Systems", "url": "/RC/Blackbucks-NEC FDP Program Certificate.png"}
     ],
     "education": [
       {"title": "Certificates", "url": "/documents/Certificates.pdf"}
@@ -226,7 +238,9 @@
       {"title": "Publication Papers Proofs", "url": "/documents/PUBLICATION PAPERS Proofs.pdf"}
     ],
     "patents": [
-      {"title": "Patents Proofs", "url": "/documents/PATENTS Proofs.pdf"}
+      {"title": "Patents Proofs", "url": "/documents/PATENTS Proofs.pdf"},
+      {"title": "Patent Application - 202641036604", "url": "/RC/PatentPUB_DF_25-03-2026_DP_10-04-2926_202641036604-604Pg.pdf"},
+      {"title": "Patent Application - 202641042299", "url": "/RC/PatentApplication_202641042299-1.pdf"}
     ],
     "awards": [
       {"title": "Awards Proofs", "url": "/documents/Awards Proofs.pdf"}
