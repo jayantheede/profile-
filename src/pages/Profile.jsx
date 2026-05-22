@@ -4,7 +4,7 @@ import {
   Building2, MapPin, Mail, Phone, ExternalLink, 
   BookOpen, Users, Trophy, BookMarked, BrainCircuit,
   Link as LinkIcon, GraduationCap, Award, FileText, Image as ImageIcon,
-  ChevronRight, ArrowRight, Code, Hash, Globe
+  ChevronRight, ArrowRight, Code, Hash, Globe, Shield
 } from 'lucide-react';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, 
@@ -89,8 +89,13 @@ const getViewerUrl = (url) => {
   if (url.match(/\.(pdf|txt|png|jpg|jpeg)$/i)) return url;
   if (typeof window !== 'undefined') {
     const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    if (isLocal) return url; // Will download locally
-    const absoluteUrl = new URL(url, window.location.origin).href;
+    let absoluteUrl;
+    if (isLocal) {
+      // Use the public GitHub raw URL of the repository so the Office Live Viewer can access the files
+      absoluteUrl = `https://raw.githubusercontent.com/jayantheede/profile-/profile/public${url}`;
+    } else {
+      absoluteUrl = new URL(url, window.location.origin).href;
+    }
     return `https://view.officeapps.live.com/op/view.aspx?src=${encodeURIComponent(absoluteUrl)}`;
   }
   return url;
@@ -144,6 +149,7 @@ function Profile() {
     { id: 'metrics_information_panel', label: 'Metrics Overview', badge: 'Analytics' },
     { id: 'other_information_panel', label: 'Publications', badge: 'Papers' },
     { id: 'achievements_information_panel', label: 'Patents & Awards', badge: 'Accomplishments' },
+    { id: 'memberships_panel', label: 'Professional Memberships', badge: 'Affiliations' },
     { id: 'gallery_panel', label: 'Event Gallery', badge: 'Photos' }
   ];
 
@@ -668,6 +674,41 @@ function Profile() {
                 </div>
 
               </div>
+            </Panel>
+
+            {/* Professional Memberships */}
+            <Panel id="memberships_panel" icon={Shield} title="Professional Memberships" badge="Affiliations">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {data.memberships && data.memberships.map((membership, idx) => (
+                  <motion.div 
+                    key={idx}
+                    whileHover={{ y: -5, scale: 1.01 }} 
+                    className="p-6 bg-white/60 border border-white rounded-[2rem] shadow-xl hover:shadow-2xl hover:border-primary/20 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
+                  >
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/60 bg-primary/5 px-2.5 py-1 rounded-full">
+                          {membership.title}
+                        </span>
+                        {membership.id && (
+                          <span className="text-[10px] font-black text-slate-400 font-mono">
+                            ID: {membership.id}
+                          </span>
+                        )}
+                      </div>
+                      <h4 className="text-xl font-black text-slate-800 leading-snug group-hover:text-primary transition-colors">
+                        {membership.organization}
+                      </h4>
+                      {membership.description && (
+                        <p className="text-sm font-medium text-slate-500 leading-relaxed italic">
+                          {membership.description}
+                        </p>
+                      )}
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+              <DocumentsList documents={data.documents?.memberships} title="Membership Certificates & Proofs" />
             </Panel>
           </div>
 

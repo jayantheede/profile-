@@ -230,8 +230,61 @@
     ],
     "awards": [
       {"title": "Awards Proofs", "url": "/documents/Awards Proofs.pdf"}
+    ],
+    "memberships": [
+      {"title": "SCIEI Membership Certificate", "url": "/documents/20180806002.pdf"},
+      {"title": "IAENG Membership Certificate", "url": "/documents/IAENG_membership_124540.pdf"},
+      {"title": "Professional Memberships Documents", "url": "/documents/MEMBERSHIPS-pages.pdf"}
     ]
   },
+  "memberships": [
+    {
+      "title": "Life Member",
+      "organization": "Society for Learning Technologies (SOLETE), India",
+      "id": "LM613 | Reg. No 186/2020",
+      "description": "Recognized for advancing quality and standards in Science & Technical Education."
+    },
+    {
+      "title": "Life Member",
+      "organization": "Indian Society for Technical Education (ISTE)",
+      "id": "LM106059"
+    },
+    {
+      "title": "Member",
+      "organization": "Science and Engineering Institute (SCIEI)",
+      "id": "20180806002"
+    },
+    {
+      "title": "Member",
+      "organization": "Institute for Engineering Research and Publication (IFERP)",
+      "id": "PMIN83915026"
+    },
+    {
+      "title": "Member",
+      "organization": "Society of Digital Information and Wireless Communications (SDIWC)",
+      "id": "3817"
+    },
+    {
+      "title": "Member",
+      "organization": "Institution of Electronics and Telecommunication Engineers (IETE)",
+      "id": "501602"
+    },
+    {
+      "title": "Member",
+      "organization": "Institute of Engineers, India, Kolkata (IE)",
+      "id": "AM1616652"
+    },
+    {
+      "title": "Member",
+      "organization": "International Association of Engineers, Hong Kong (IAENG)",
+      "id": "124450"
+    },
+    {
+      "title": "Member",
+      "organization": "Universal Association of Computer & Electronics Engineers (UACCE)",
+      "id": "AM1010003037"
+    }
+  ],
   "gallery": [
     { "url": "/gallery/PHOTO-2026-05-20-16-38-09.jpg", "caption": "SOLETE International Awards 2025" },
     { "url": "/gallery/PHOTO-2026-05-20-16-38-09 2.jpg", "caption": "Dr. Sarvepalli Radhakrishnan Best Teacher Award" },
