@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence, useScroll, useSpring, useTransform } from 'framer-motion';
 import { 
   Building2, MapPin, Mail, Phone, ExternalLink, 
@@ -140,6 +141,7 @@ function Profile() {
   const [activeTab, setActiveTab] = useState('Personal Information');
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30, restDelta: 0.001 });
+  const navigate = useNavigate();
 
   const tabs = [
     { id: 'personal_information_panel', label: 'Personal Information', badge: 'Biodata' },
@@ -154,6 +156,10 @@ function Profile() {
   ];
 
   const scrollToSection = (id, label) => {
+    if (label === 'Personal Information') {
+      navigate('/premium');
+      return;
+    }
     setActiveTab(label);
     setTimeout(() => {
       const element = document.getElementById(id);

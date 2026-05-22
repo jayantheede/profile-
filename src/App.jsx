@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Profile from './pages/Profile';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
+import PremiumProfile from './pages/PremiumProfile';
 
 import { ProfileProvider } from './ProfileContext';
 
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Profile />} />
           <Route path="/login" element={<Login />} />
           <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/premium" element={<PremiumProfile />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
