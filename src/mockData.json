@@ -235,8 +235,26 @@
       {"title": "SCIEI Membership Certificate", "url": "/documents/20180806002.pdf"},
       {"title": "IAENG Membership Certificate", "url": "/documents/IAENG_membership_124540.pdf"},
       {"title": "Professional Memberships Documents", "url": "/documents/MEMBERSHIPS-pages.pdf"}
+    ],
+    "reviewerCertificates": [
+      {"title": "Reviewer Invitation Letter - ICIECE 2018", "url": "/RC/01 Reviewer Invitation Letter_ICIECE 2018.pdf"},
+      {"title": "IMA Reviewer Certificate", "url": "/RC/IMA Reviewer Certificate.pdf"}
     ]
   },
+  "reviewerCertificates": [
+    {
+      "title": "Reviewer Invitation Letter",
+      "organization": "7th International Conference on Innovations in Electronics and Communication Engineering (ICIECE-2018)",
+      "id": "ICIECE-2018",
+      "description": "Invited to serve as a reviewer for ICIECE-2018, contributing expertise in VLSI Technology, Signal and Image Processing, Mobile Computing, and Embedded Systems tracks."
+    },
+    {
+      "title": "Reviewer Certificate",
+      "organization": "International Journal of Imaging Systems and Technology (Wiley)",
+      "id": "IJIST-2019",
+      "description": "Recognized for serving as an active reviewer for the International Journal of Imaging Systems and Technology, evaluating 2 manuscripts in 2019."
+    }
+  ],
   "memberships": [
     {
       "title": "Life Member",

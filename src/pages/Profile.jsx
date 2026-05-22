@@ -152,6 +152,7 @@ function Profile() {
     { id: 'other_information_panel', label: 'Publications', badge: 'Papers' },
     { id: 'achievements_information_panel', label: 'Patents & Awards', badge: 'Accomplishments' },
     { id: 'memberships_panel', label: 'Professional Memberships', badge: 'Affiliations' },
+    { id: 'reviewer_certificates_panel', label: 'Reviewer Certificates', badge: 'Reviewer' },
     { id: 'gallery_panel', label: 'Event Gallery', badge: 'Photos' }
   ];
 
@@ -715,6 +716,41 @@ function Profile() {
                 ))}
               </div>
               <DocumentsList documents={data.documents?.memberships} title="Membership Certificates & Proofs" />
+            </Panel>
+
+            {/* Reviewer Certificates */}
+            <Panel id="reviewer_certificates_panel" icon={Award} title="Reviewer Certificates" badge="Reviewer">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {data.reviewerCertificates && data.reviewerCertificates.map((cert, idx) => (
+                  <motion.div 
+                    key={idx}
+                    whileHover={{ y: -5, scale: 1.01 }} 
+                    className="p-6 bg-white/60 border border-white rounded-[2rem] shadow-xl hover:shadow-2xl hover:border-primary/20 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
+                  >
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3">
+                        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/60 bg-primary/5 px-2.5 py-1 rounded-full">
+                          {cert.title}
+                        </span>
+                        {cert.id && (
+                          <span className="text-[10px] font-black text-slate-400 font-mono">
+                            ID: {cert.id}
+                          </span>
+                        )}
+                      </div>
+                      <h4 className="text-xl font-black text-slate-800 leading-snug group-hover:text-primary transition-colors">
+                        {cert.organization}
+                      </h4>
+                      {cert.description && (
+                        <p className="text-sm font-medium text-slate-500 leading-relaxed italic">
+                          {cert.description}
+                        </p>
+                      )}
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+              <DocumentsList documents={data.documents?.reviewerCertificates} title="Reviewer Invitation Letters & Certificates" />
             </Panel>
           </div>
 

@@ -149,6 +149,7 @@ export default function PremiumProfile() {
     { id: 'other_information_panel', label: 'Publications', badge: 'Papers' },
     { id: 'achievements_information_panel', label: 'Patents & Awards', badge: 'Accomplishments' },
     { id: 'memberships_panel', label: 'Professional Memberships', badge: 'Affiliations' },
+    { id: 'reviewer_certificates_panel', label: 'Reviewer Certificates', badge: 'Reviewer' },
     { id: 'gallery_panel', label: 'Event Gallery', badge: 'Photos' }
   ];
 
@@ -722,6 +723,41 @@ export default function PremiumProfile() {
                   ))}
                 </div>
                 <PremiumDocumentsList documents={data.documents?.memberships} title="Membership Certificates & Proofs" />
+              </PremiumPanel>
+
+              {/* Reviewer Certificates */}
+              <PremiumPanel id="reviewer_certificates_panel" icon={Award} title="Reviewer Certificates" badge="Reviewer">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {data.reviewerCertificates && data.reviewerCertificates.map((cert, idx) => (
+                    <motion.div 
+                      key={idx}
+                      whileHover={{ y: -5, scale: 1.01 }} 
+                      className="p-6 bg-slate-900/40 border border-white/5 rounded-[2rem] shadow-xl hover:shadow-[0_0_25px_rgba(59,130,246,0.1)] hover:border-blue-500/30 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
+                    >
+                      <div className="space-y-3">
+                        <div className="flex items-center gap-3">
+                          <span className="text-[10px] font-black uppercase tracking-[0.2em] text-blue-400 bg-blue-500/10 border border-blue-500/20 px-2.5 py-1 rounded-full">
+                            {cert.title}
+                          </span>
+                          {cert.id && (
+                            <span className="text-[10px] font-black text-slate-500 font-mono">
+                              ID: {cert.id}
+                            </span>
+                          )}
+                        </div>
+                        <h4 className="text-xl font-black text-white leading-snug group-hover:text-blue-400 transition-colors">
+                          {cert.organization}
+                        </h4>
+                        {cert.description && (
+                          <p className="text-sm font-medium text-slate-400 leading-relaxed italic">
+                            {cert.description}
+                          </p>
+                        )}
+                      </div>
+                    </motion.div>
+                  ))}
+                </div>
+                <PremiumDocumentsList documents={data.documents?.reviewerCertificates} title="Reviewer Invitation Letters & Certificates" />
               </PremiumPanel>
 
             </div>
