@@ -33,12 +33,14 @@
     {
       "title": "Design and Performance Analysis of a Compact CPW-Fed Meandered Slot Antenna for Wireless Communication",
       "number": "202641036604",
-      "year": "2026"
+      "year": "2026",
+      "url": "/RC/PatentPUB_DF_25-03-2026_DP_10-04-2926_202641036604-604Pg.pdf"
     },
     {
       "title": "Design of a compact dual-band symmetric 2×1 cpw-fed circular patch array antenna for wlan applications",
       "number": "202641042299",
-      "year": "2026"
+      "year": "2026",
+      "url": "/RC/PatentApplication_202641042299-1.pdf"
     }
   ],
   "awards": [
@@ -211,6 +213,7 @@
       {"title": "Guide Allotment Proofs", "url": "/documents/Guide Allotment proofs.pdf"},
       {"title": "Invited Lectures Proofs", "url": "/documents/Invited Lectures Proofs.pdf"},
       {"title": "Resource Person - National Seminar on VLSI Design and Technology", "url": "/RC/VLSI Certificate.pdf"},
+      {"title": "Resource Person - National Seminar on VLSI Design and Technology (Certificate 2)", "url": "/RC/VLSI Certificate 2.pdf"},
       {"title": "FDP Certificate - Emerging Trends in Embedded Systems", "url": "/RC/Blackbucks-NEC FDP Program Certificate.png"}
     ],
     "education": [
@@ -252,7 +255,9 @@
     ],
     "reviewerCertificates": [
       {"title": "Reviewer Invitation Letter - ICIECE 2018", "url": "/RC/01 Reviewer Invitation Letter_ICIECE 2018.pdf"},
-      {"title": "IMA Reviewer Certificate", "url": "/RC/IMA Reviewer Certificate.pdf"}
+      {"title": "IMA Reviewer Certificate", "url": "/RC/IMA Reviewer Certificate.pdf"},
+      {"title": "Resource Person - National Seminar on VLSI Design and Technology", "url": "/RC/VLSI Certificate.pdf"},
+      {"title": "Resource Person - National Seminar on VLSI Design and Technology (Certificate 2)", "url": "/RC/VLSI Certificate 2.pdf"}
     ]
   },
   "reviewerCertificates": [
@@ -260,13 +265,29 @@
       "title": "Reviewer Invitation Letter",
       "organization": "7th International Conference on Innovations in Electronics and Communication Engineering (ICIECE-2018)",
       "id": "ICIECE-2018",
-      "description": "Invited to serve as a reviewer for ICIECE-2018, contributing expertise in VLSI Technology, Signal and Image Processing, Mobile Computing, and Embedded Systems tracks."
+      "description": "Invited to serve as a reviewer for ICIECE-2018, contributing expertise in VLSI Technology, Signal and Image Processing, Mobile Computing, and Embedded Systems tracks.",
+      "url": "/RC/01 Reviewer Invitation Letter_ICIECE 2018.pdf"
     },
     {
       "title": "Reviewer Certificate",
       "organization": "International Journal of Imaging Systems and Technology (Wiley)",
       "id": "IJIST-2019",
-      "description": "Recognized for serving as an active reviewer for the International Journal of Imaging Systems and Technology, evaluating 2 manuscripts in 2019."
+      "description": "Recognized for serving as an active reviewer for the International Journal of Imaging Systems and Technology, evaluating 2 manuscripts in 2019.",
+      "url": "/RC/IMA Reviewer Certificate.pdf"
+    },
+    {
+      "title": "Resource Person Certificate",
+      "organization": "National Seminar on VLSI Design and Technology",
+      "id": "PM-USHA 2026",
+      "description": "Served as a Resource Person for the PM-USHA sponsored Two-day National Seminar on VLSI Design and Technology organized by Government Degree College, Yeleswaram in collaboration with Blackbucks Education.",
+      "url": "/RC/VLSI Certificate.pdf"
+    },
+    {
+      "title": "Resource Person Certificate (Certificate 2)",
+      "organization": "National Seminar on VLSI Design and Technology",
+      "id": "PM-USHA 2026",
+      "description": "Served as a Resource Person for the PM-USHA sponsored Two-day National Seminar on VLSI Design and Technology organized by Government Degree College, Yeleswaram in collaboration with Blackbucks Education.",
+      "url": "/RC/VLSI Certificate 2.pdf"
     }
   ],
   "memberships": [
@@ -284,7 +305,8 @@
     {
       "title": "Member",
       "organization": "Science and Engineering Institute (SCIEI)",
-      "id": "20180806002"
+      "id": "20180806002",
+      "url": "/documents/20180806002.pdf"
     },
     {
       "title": "Member",
@@ -309,7 +331,8 @@
     {
       "title": "Member",
       "organization": "International Association of Engineers, Hong Kong (IAENG)",
-      "id": "124450"
+      "id": "124450",
+      "url": "/documents/IAENG_membership_124540.pdf"
     },
     {
       "title": "Member",

@@ -620,6 +620,19 @@ function Profile() {
                         <span className="text-[10px] font-black uppercase text-amber-500 tracking-[0.3em] bg-amber-50 px-3 py-1 rounded-full mb-3 inline-block">ID: {patent.number}</span>
                         <h4 className="text-2xl font-black text-slate-900 group-hover:text-amber-600 transition-colors">{patent.title}</h4>
                         <div className="mt-4 text-sm font-black text-slate-400 italic">Registered • {patent.year}</div>
+                        {patent.url && (
+                          <div className="mt-4 pt-4 border-t border-slate-100 flex justify-end">
+                            <a 
+                              href={getViewerUrl(patent.url)} 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 text-xs font-black text-amber-600 hover:text-slate-900 transition-colors"
+                            >
+                              VIEW PATENT
+                              <ExternalLink className="w-3.5 h-3.5" />
+                            </a>
+                          </div>
+                        )}
                       </motion.div>
                     ))}
                   </div>
@@ -692,7 +705,7 @@ function Profile() {
                     whileHover={{ y: -5, scale: 1.01 }} 
                     className="p-6 bg-white/60 border border-white rounded-[2rem] shadow-xl hover:shadow-2xl hover:border-primary/20 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
                   >
-                    <div className="space-y-3">
+                    <div className="space-y-3 flex-grow">
                       <div className="flex items-center gap-3">
                         <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/60 bg-primary/5 px-2.5 py-1 rounded-full">
                           {membership.title}
@@ -712,6 +725,19 @@ function Profile() {
                         </p>
                       )}
                     </div>
+                    {membership.url && (
+                      <div className="mt-4 pt-4 border-t border-slate-100 flex justify-end">
+                        <a 
+                          href={getViewerUrl(membership.url)} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-xs font-black text-primary hover:text-slate-900 transition-colors"
+                        >
+                          VIEW MEMBERSHIP
+                          <ExternalLink className="w-3.5 h-3.5" />
+                        </a>
+                      </div>
+                    )}
                   </motion.div>
                 ))}
               </div>
@@ -719,7 +745,7 @@ function Profile() {
             </Panel>
 
             {/* Reviewer Certificates */}
-            <Panel id="reviewer_certificates_panel" icon={Award} title="Reviewer Certificates" badge="Reviewer">
+            <Panel id="reviewer_certificates_panel" icon={Award} title="Certificates & Invitations" badge="Certificates">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {data.reviewerCertificates && data.reviewerCertificates.map((cert, idx) => (
                   <motion.div 
@@ -727,7 +753,7 @@ function Profile() {
                     whileHover={{ y: -5, scale: 1.01 }} 
                     className="p-6 bg-white/60 border border-white rounded-[2rem] shadow-xl hover:shadow-2xl hover:border-primary/20 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
                   >
-                    <div className="space-y-3">
+                    <div className="space-y-3 flex-grow">
                       <div className="flex items-center gap-3">
                         <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/60 bg-primary/5 px-2.5 py-1 rounded-full">
                           {cert.title}
@@ -747,10 +773,23 @@ function Profile() {
                         </p>
                       )}
                     </div>
+                    {cert.url && (
+                      <div className="mt-4 pt-4 border-t border-slate-100 flex justify-end">
+                        <a 
+                          href={getViewerUrl(cert.url)} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-xs font-black text-primary hover:text-slate-900 transition-colors"
+                        >
+                          VIEW CERTIFICATE
+                          <ExternalLink className="w-3.5 h-3.5" />
+                        </a>
+                      </div>
+                    )}
                   </motion.div>
                 ))}
               </div>
-              <DocumentsList documents={data.documents?.reviewerCertificates} title="Reviewer Invitation Letters & Certificates" />
+              <DocumentsList documents={data.documents?.reviewerCertificates} title="Certificates & Reviewer Invitations" />
             </Panel>
           </div>
 

@@ -628,6 +628,19 @@ export default function PremiumProfile() {
                           <span className="text-[10px] font-black uppercase text-amber-400 tracking-[0.3em] bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full mb-3 inline-block font-mono">ID: {patent.number}</span>
                           <h4 className="text-2xl font-black text-white group-hover:text-amber-400 transition-colors leading-snug">{patent.title}</h4>
                           <div className="mt-4 text-sm font-black text-slate-400 italic">Registered • {patent.year}</div>
+                          {patent.url && (
+                            <div className="mt-4 pt-4 border-t border-white/5 flex justify-end">
+                              <a 
+                                href={getViewerUrl(patent.url)} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 text-xs font-black text-amber-400 hover:text-white transition-colors"
+                              >
+                                VIEW PATENT
+                                <ExternalLink className="w-3.5 h-3.5" />
+                              </a>
+                            </div>
+                          )}
                         </motion.div>
                       ))}
                     </div>
@@ -699,7 +712,7 @@ export default function PremiumProfile() {
                       whileHover={{ y: -5, scale: 1.01 }} 
                       className="p-6 bg-slate-900/40 border border-white/5 rounded-[2rem] shadow-xl hover:shadow-[0_0_25px_rgba(59,130,246,0.1)] hover:border-blue-500/30 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
                     >
-                      <div className="space-y-3">
+                      <div className="space-y-3 flex-grow">
                         <div className="flex items-center gap-3">
                           <span className="text-[10px] font-black uppercase tracking-[0.2em] text-blue-400 bg-blue-500/10 border border-blue-500/20 px-2.5 py-1 rounded-full">
                             {membership.title}
@@ -719,6 +732,19 @@ export default function PremiumProfile() {
                           </p>
                         )}
                       </div>
+                      {membership.url && (
+                        <div className="mt-4 pt-4 border-t border-white/5 flex justify-end">
+                          <a 
+                            href={getViewerUrl(membership.url)} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-xs font-black text-blue-400 hover:text-white transition-colors"
+                          >
+                            VIEW MEMBERSHIP
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        </div>
+                      )}
                     </motion.div>
                   ))}
                 </div>
@@ -726,7 +752,7 @@ export default function PremiumProfile() {
               </PremiumPanel>
 
               {/* Reviewer Certificates */}
-              <PremiumPanel id="reviewer_certificates_panel" icon={Award} title="Reviewer Certificates" badge="Reviewer">
+              <PremiumPanel id="reviewer_certificates_panel" icon={Award} title="Certificates & Invitations" badge="Certificates">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {data.reviewerCertificates && data.reviewerCertificates.map((cert, idx) => (
                     <motion.div 
@@ -734,7 +760,7 @@ export default function PremiumProfile() {
                       whileHover={{ y: -5, scale: 1.01 }} 
                       className="p-6 bg-slate-900/40 border border-white/5 rounded-[2rem] shadow-xl hover:shadow-[0_0_25px_rgba(59,130,246,0.1)] hover:border-blue-500/30 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
                     >
-                      <div className="space-y-3">
+                      <div className="space-y-3 flex-grow">
                         <div className="flex items-center gap-3">
                           <span className="text-[10px] font-black uppercase tracking-[0.2em] text-blue-400 bg-blue-500/10 border border-blue-500/20 px-2.5 py-1 rounded-full">
                             {cert.title}
@@ -754,10 +780,23 @@ export default function PremiumProfile() {
                           </p>
                         )}
                       </div>
+                      {cert.url && (
+                        <div className="mt-4 pt-4 border-t border-white/5 flex justify-end">
+                          <a 
+                            href={getViewerUrl(cert.url)} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-xs font-black text-blue-400 hover:text-white transition-colors"
+                          >
+                            VIEW CERTIFICATE
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        </div>
+                      )}
                     </motion.div>
                   ))}
                 </div>
-                <PremiumDocumentsList documents={data.documents?.reviewerCertificates} title="Reviewer Invitation Letters & Certificates" />
+                <PremiumDocumentsList documents={data.documents?.reviewerCertificates} title="Certificates & Reviewer Invitations" />
               </PremiumPanel>
 
             </div>
