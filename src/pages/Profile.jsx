@@ -323,7 +323,7 @@ function Profile() {
                       label="Scholar" 
                       value={data.personal.ids.googleScholar} 
                       color="bg-[#4285F4]" 
-                      href={`https://scholar.google.com/citations?user=${data.personal.ids.googleScholar}`}
+                      href={data.personal.ids.googleScholarLink || `https://scholar.google.com/citations?user=${data.personal.ids.googleScholar}`}
                     />
                   </div>
                 </div>
