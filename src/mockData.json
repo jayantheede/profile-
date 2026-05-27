@@ -45,6 +45,11 @@
   ],
   "awards": [
     {
+      "title": "Dr. Sarvepalli Radhakrishnan Best Teacher Award",
+      "organization": "SOLETE International Awards",
+      "year": "2025"
+    },
+    {
       "title": "Dr. Sarvepalli Radhakrishnan Best Teacher Award 2025",
       "organization": "SOLETE International Awards",
       "year": "2025"
@@ -61,6 +66,12 @@
     }
   ],
   "grants": [
+    {
+      "title": "Accreditation Support",
+      "role": "Coordinator",
+      "amount": "1,00,000",
+      "year": "2026"
+    },
     {
       "title": "Ministry of Electronics and Information Technology",
       "amount": "4.5 Lakhs",
@@ -162,9 +173,23 @@
     {
       "year": "2025",
       "count": 25
+    },
+    {
+      "year": "2026",
+      "count": 2
     }
   ],
   "publicationsInfo": [
+    {
+      "year": 2025,
+      "title": "Simulation Framework for Image Processing Operations Using MATLAB and Verilog",
+      "journal": "7th International Conference on Electrical Information and Communication Technology (EICT)"
+    },
+    {
+      "year": 2025,
+      "title": "Deep Learning-Driven ECG Classification using CNN-LSTM-Transformer and Metaheuristic Optimization",
+      "journal": "9th International Conference on Electronics, Communication and Aerospace Technology (ICECA)"
+    },
     {
       "year": 2025,
       "title": "Robust multi-modal COVID-19 medical image registration using dense deep learning descriptor model",
@@ -221,6 +246,16 @@
   ],
   "documents": {
     "personal": [
+      {
+        "title": "Self attested CV_New latest as on 25-05-2026",
+        "url": "/documents/Self attested CV_New latest as on 25-05-2026.docx",
+        "year": "2026"
+      },
+      {
+        "title": "Dr_Aravind_Kumar_Executive_CV",
+        "url": "/documents/Dr_Aravind_Kumar_Executive_CV.docx",
+        "year": "2026"
+      },
       {
         "title": "Self attested CV (DOCX)",
         "url": "/documents/Self attested CV of Dr. Aravind Kumar.M.docx",
@@ -483,6 +518,13 @@
     ]
   },
   "reviewerCertificates": [
+    {
+      "title": "Certificate of Appreciation",
+      "organization": "NxtWave",
+      "year": "2024",
+      "id": "AbroadConclave",
+      "description": "Recognized for outstanding leadership and coordination in organizing the NxtWave AbroadConclave."
+    },
     {
       "title": "Resource Person Certificate",
       "organization": "National Seminar on VLSI Design and Technology",
