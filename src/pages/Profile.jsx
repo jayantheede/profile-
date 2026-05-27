@@ -104,29 +104,45 @@ const getViewerUrl = (url) => {
 
 const DocumentsList = ({ documents, title = "Related Documents" }) => {
   if (!documents || documents.length === 0) return null;
+  const grouped = documents.reduce((acc, doc) => {
+    const year = doc.year || 'Other';
+    if (!acc[year]) acc[year] = [];
+    acc[year].push(doc);
+    return acc;
+  }, {});
+  
+  const sortedYears = Object.keys(grouped).sort((a, b) => b.localeCompare(a));
+
   return (
     <div className="mt-8 pt-8 border-t border-slate-200/50">
       <h4 className="text-xl font-black text-slate-800 mb-6 flex items-center gap-3">
         <FileText className="w-6 h-6 text-primary" />
         {title}
       </h4>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {documents.map((doc, idx) => (
-          <motion.a
-            key={idx}
-            href={getViewerUrl(doc.url)}
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.02, y: -2 }}
-            className="flex items-center gap-4 p-4 bg-white/60 border border-slate-100 rounded-2xl shadow-sm hover:shadow-lg hover:border-primary/20 transition-all group"
-          >
-            <div className="p-3 bg-primary/10 text-primary rounded-xl group-hover:bg-primary group-hover:text-white transition-colors flex-shrink-0">
-              <FileText className="w-5 h-5" />
+      <div className="space-y-8">
+        {sortedYears.map(year => (
+          <div key={year}>
+            {year !== 'Other' && <h5 className="text-lg font-black text-slate-400 mb-4 flex items-center gap-2"><span className="w-4 h-1 bg-primary/20 rounded-full"></span>{year}</h5>}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {grouped[year].map((doc, idx) => (
+                <motion.a
+                  key={idx}
+                  href={getViewerUrl(doc.url)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.02, y: -2 }}
+                  className="flex items-center gap-4 p-4 bg-white/60 border border-slate-100 rounded-2xl shadow-sm hover:shadow-lg hover:border-primary/20 transition-all group"
+                >
+                  <div className="p-3 bg-primary/10 text-primary rounded-xl group-hover:bg-primary group-hover:text-white transition-colors flex-shrink-0">
+                    <FileText className="w-5 h-5" />
+                  </div>
+                  <span className="text-sm font-bold text-slate-700 group-hover:text-primary transition-colors line-clamp-2" title={doc.title}>
+                    {doc.title}
+                  </span>
+                </motion.a>
+              ))}
             </div>
-            <span className="text-sm font-bold text-slate-700 group-hover:text-primary transition-colors line-clamp-2" title={doc.title}>
-              {doc.title}
-            </span>
-          </motion.a>
+          </div>
         ))}
       </div>
     </div>
@@ -658,6 +674,7 @@ function Profile() {
                         <Award className="absolute right-4 top-4 w-12 h-12 text-white opacity-20 group-hover:rotate-12 transition-transform" />
                         <h4 className="text-2xl font-black text-white pr-10">{award.title}</h4>
                         <p className="text-purple-100 font-bold mt-4 uppercase text-[10px] tracking-[0.2em]">{award.organization}</p>
+                        {award.year && <div className="absolute top-4 left-4 bg-white/20 px-3 py-1 rounded-full text-xs font-black text-white backdrop-blur-md">{award.year}</div>}
                       </motion.div>
                     ))}
                   </div>
@@ -682,6 +699,7 @@ function Profile() {
                         <div className="absolute top-0 right-0 w-32 h-32 bg-green-50 rounded-bl-[100%] opacity-50 group-hover:scale-110 transition-transform"></div>
                         <div className="relative z-10">
                           <span className="text-[10px] font-black uppercase text-green-500 tracking-[0.3em]">{grant.role}</span>
+                          {grant.year && <span className="ml-3 text-[10px] font-black text-green-500 tracking-[0.3em] bg-green-50 px-2 py-1 rounded-full">{grant.year}</span>}
                           <h4 className="text-2xl font-black text-slate-900 mt-2 mb-8 leading-tight">{grant.title}</h4>
                         </div>
                         <div className="text-5xl font-black text-green-600 drop-shadow-sm flex items-end gap-2">
@@ -710,6 +728,11 @@ function Profile() {
                         <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/60 bg-primary/5 px-2.5 py-1 rounded-full">
                           {membership.title}
                         </span>
+                        {membership.year && (
+                          <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/80 bg-primary/10 px-2.5 py-1 rounded-full">
+                            {membership.year}
+                          </span>
+                        )}
                         {membership.id && (
                           <span className="text-[10px] font-black text-slate-400 font-mono">
                             ID: {membership.id}
@@ -746,48 +769,64 @@ function Profile() {
 
             {/* Reviewer Certificates */}
             <Panel id="reviewer_certificates_panel" icon={Award} title="Certificates & Invitations" badge="Certificates">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {data.reviewerCertificates && data.reviewerCertificates.map((cert, idx) => (
-                  <motion.div 
-                    key={idx}
-                    whileHover={{ y: -5, scale: 1.01 }} 
-                    className="p-6 bg-white/60 border border-white rounded-[2rem] shadow-xl hover:shadow-2xl hover:border-primary/20 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
-                  >
-                    <div className="space-y-3 flex-grow">
-                      <div className="flex items-center gap-3">
-                        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/60 bg-primary/5 px-2.5 py-1 rounded-full">
-                          {cert.title}
-                        </span>
-                        {cert.id && (
-                          <span className="text-[10px] font-black text-slate-400 font-mono">
-                            ID: {cert.id}
-                          </span>
-                        )}
+              <div className="space-y-10">
+                {(() => {
+                  if (!data.reviewerCertificates) return null;
+                  const grouped = data.reviewerCertificates.reduce((acc, cert) => {
+                    const y = cert.year || 'Other';
+                    if (!acc[y]) acc[y] = [];
+                    acc[y].push(cert);
+                    return acc;
+                  }, {});
+                  return Object.keys(grouped).sort((a, b) => b.localeCompare(a)).map(year => (
+                    <div key={year} className="space-y-6">
+                      {year !== 'Other' && <h4 className="text-xl font-black text-slate-300 flex items-center gap-4"><div className="h-px bg-slate-200 flex-grow"></div>{year}</h4>}
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {grouped[year].map((cert, idx) => (
+                          <motion.div 
+                            key={idx}
+                            whileHover={{ y: -5, scale: 1.01 }} 
+                            className="p-6 bg-white/60 border border-white rounded-[2rem] shadow-xl hover:shadow-2xl hover:border-primary/20 transition-all duration-300 relative overflow-hidden group flex flex-col justify-between"
+                          >
+                            <div className="space-y-3 flex-grow">
+                              <div className="flex items-center gap-3">
+                                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary/60 bg-primary/5 px-2.5 py-1 rounded-full">
+                                  {cert.title}
+                                </span>
+                                {cert.id && (
+                                  <span className="text-[10px] font-black text-slate-400 font-mono">
+                                    ID: {cert.id}
+                                  </span>
+                                )}
+                              </div>
+                              <h4 className="text-xl font-black text-slate-800 leading-snug group-hover:text-primary transition-colors">
+                                {cert.organization}
+                              </h4>
+                              {cert.description && (
+                                <p className="text-sm font-medium text-slate-500 leading-relaxed italic">
+                                  {cert.description}
+                                </p>
+                              )}
+                            </div>
+                            {cert.url && (
+                              <div className="mt-4 pt-4 border-t border-slate-100 flex justify-end">
+                                <a 
+                                  href={getViewerUrl(cert.url)} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center gap-2 text-xs font-black text-primary hover:text-slate-900 transition-colors"
+                                >
+                                  VIEW CERTIFICATE
+                                  <ExternalLink className="w-3.5 h-3.5" />
+                                </a>
+                              </div>
+                            )}
+                          </motion.div>
+                        ))}
                       </div>
-                      <h4 className="text-xl font-black text-slate-800 leading-snug group-hover:text-primary transition-colors">
-                        {cert.organization}
-                      </h4>
-                      {cert.description && (
-                        <p className="text-sm font-medium text-slate-500 leading-relaxed italic">
-                          {cert.description}
-                        </p>
-                      )}
                     </div>
-                    {cert.url && (
-                      <div className="mt-4 pt-4 border-t border-slate-100 flex justify-end">
-                        <a 
-                          href={getViewerUrl(cert.url)} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-xs font-black text-primary hover:text-slate-900 transition-colors"
-                        >
-                          VIEW CERTIFICATE
-                          <ExternalLink className="w-3.5 h-3.5" />
-                        </a>
-                      </div>
-                    )}
-                  </motion.div>
-                ))}
+                  ));
+                })()}
               </div>
               <DocumentsList documents={data.documents?.reviewerCertificates} title="Certificates & Reviewer Invitations" />
             </Panel>

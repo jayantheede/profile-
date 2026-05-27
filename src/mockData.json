@@ -16,19 +16,10 @@
   },
   "patents": [
     {
-      "title": "An Integrated 555 Timer IC Kit",
-      "number": "201941016569",
-      "year": "2019"
-    },
-    {
-      "title": "Smart Wearable Reminder Device",
-      "number": "201941054851",
-      "year": "2019"
-    },
-    {
-      "title": "A voice and cognition-controlled advanced drone system",
-      "number": "Germany Filing",
-      "year": "2022"
+      "title": "Design of a compact dual-band symmetric 2×1 cpw-fed circular patch array antenna for wlan applications",
+      "number": "202641042299",
+      "year": "2026",
+      "url": "/RC/PatentApplication_202641042299-1.pdf"
     },
     {
       "title": "Design and Performance Analysis of a Compact CPW-Fed Meandered Slot Antenna for Wireless Communication",
@@ -37,36 +28,50 @@
       "url": "/RC/PatentPUB_DF_25-03-2026_DP_10-04-2926_202641036604-604Pg.pdf"
     },
     {
-      "title": "Design of a compact dual-band symmetric 2×1 cpw-fed circular patch array antenna for wlan applications",
-      "number": "202641042299",
-      "year": "2026",
-      "url": "/RC/PatentApplication_202641042299-1.pdf"
+      "title": "A voice and cognition-controlled advanced drone system",
+      "number": "Germany Filing",
+      "year": "2022"
+    },
+    {
+      "title": "An Integrated 555 Timer IC Kit",
+      "number": "201941016569",
+      "year": "2019"
+    },
+    {
+      "title": "Smart Wearable Reminder Device",
+      "number": "201941054851",
+      "year": "2019"
     }
   ],
   "awards": [
     {
       "title": "Dr. Sarvepalli Radhakrishnan Best Teacher Award 2025",
-      "organization": "SOLETE International Awards"
+      "organization": "SOLETE International Awards",
+      "year": "2025"
     },
     {
       "title": "Certified Chief Innovation Officer",
-      "organization": "Rocheston, New York"
+      "organization": "Rocheston, New York",
+      "year": "2025"
     },
     {
       "title": "Best Young Researcher Award",
-      "organization": "IASTE Awards, Chennai"
+      "organization": "IASTE Awards, Chennai",
+      "year": "2025"
     }
   ],
   "grants": [
     {
       "title": "Ministry of Electronics and Information Technology",
       "amount": "4.5 Lakhs",
-      "role": "Convener"
+      "role": "Convener",
+      "year": "2024"
     },
     {
       "title": "Consultancy project from ASA solutions",
       "amount": "10 Lakhs",
-      "role": "Principal Investigator"
+      "role": "Principal Investigator",
+      "year": "2024"
     }
   ],
   "metrics": {
@@ -130,13 +135,34 @@
     }
   ],
   "publicationsChart": [
-    { "year": "2019", "count": 12 },
-    { "year": "2020", "count": 8 },
-    { "year": "2021", "count": 10 },
-    { "year": "2022", "count": 15 },
-    { "year": "2023", "count": 12 },
-    { "year": "2024", "count": 18 },
-    { "year": "2025", "count": 25 }
+    {
+      "year": "2019",
+      "count": 12
+    },
+    {
+      "year": "2020",
+      "count": 8
+    },
+    {
+      "year": "2021",
+      "count": 10
+    },
+    {
+      "year": "2022",
+      "count": 15
+    },
+    {
+      "year": "2023",
+      "count": 12
+    },
+    {
+      "year": "2024",
+      "count": 18
+    },
+    {
+      "year": "2025",
+      "count": 25
+    }
   ],
   "publicationsInfo": [
     {
@@ -195,99 +221,299 @@
   ],
   "documents": {
     "personal": [
-      {"title": "Self attested CV (DOCX)", "url": "/documents/Self attested CV of Dr. Aravind Kumar.M.docx"},
-      {"title": "CV (TXT)", "url": "/documents/cv.txt"},
-      {"title": "Genuineness Certificate", "url": "/documents/Genunineness Certificate.pdf"},
-      {"title": "Cover Page (PDF)", "url": "/documents/Dr.Aravind Kumar Cover Page.pdf"},
-      {"title": "Cover Page (DOC)", "url": "/documents/Dr.Aravind Kumar cover page.doc"},
-      {"title": "UGC- PABS Proforma", "url": "/documents/UGC- PABS Proforma.pdf"},
-      {"title": "UGC- PABS Proforma 3A", "url": "/documents/UGC- PABS Proforma_3A.pdf"},
-      {"title": "UGC- PABS Proforma 3B", "url": "/documents/UGC- PABS Proforma_3B.pdf"},
-      {"title": "UGC- PABS Proforma 3C", "url": "/documents/UGC- PABS Proforma_3C.pdf"},
-      {"title": "UGC- PABS Proforma 3D", "url": "/documents/UGC- PABS Proforma_3D.pdf"},
-      {"title": "UGC- PABS Proforma 3E", "url": "/documents/UGC- PABS Proforma_3E.pdf"},
-      {"title": "UGC- PABS Proforma 3F", "url": "/documents/UGC- PABS Proforma_3F.pdf"}
+      {
+        "title": "Self attested CV (DOCX)",
+        "url": "/documents/Self attested CV of Dr. Aravind Kumar.M.docx",
+        "year": "2026"
+      },
+      {
+        "title": "CV (TXT)",
+        "url": "/documents/cv.txt",
+        "year": "2026"
+      },
+      {
+        "title": "Genuineness Certificate",
+        "url": "/documents/Genunineness Certificate.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Cover Page (PDF)",
+        "url": "/documents/Dr.Aravind Kumar Cover Page.pdf",
+        "year": "2025"
+      },
+      {
+        "title": "Cover Page (DOC)",
+        "url": "/documents/Dr.Aravind Kumar cover page.doc",
+        "year": "2025"
+      },
+      {
+        "title": "UGC- PABS Proforma",
+        "url": "/documents/UGC- PABS Proforma.pdf",
+        "year": "2025"
+      },
+      {
+        "title": "UGC- PABS Proforma 3A",
+        "url": "/documents/UGC- PABS Proforma_3A.pdf",
+        "year": "2024"
+      },
+      {
+        "title": "UGC- PABS Proforma 3B",
+        "url": "/documents/UGC- PABS Proforma_3B.pdf",
+        "year": "2024"
+      },
+      {
+        "title": "UGC- PABS Proforma 3C",
+        "url": "/documents/UGC- PABS Proforma_3C.pdf",
+        "year": "2024"
+      },
+      {
+        "title": "UGC- PABS Proforma 3D",
+        "url": "/documents/UGC- PABS Proforma_3D.pdf",
+        "year": "2023"
+      },
+      {
+        "title": "UGC- PABS Proforma 3E",
+        "url": "/documents/UGC- PABS Proforma_3E.pdf",
+        "year": "2023"
+      },
+      {
+        "title": "UGC- PABS Proforma 3F",
+        "url": "/documents/UGC- PABS Proforma_3F.pdf",
+        "year": "2023"
+      }
     ],
     "experience": [
-      {"title": "Advisory Committee Appointment", "url": "/documents/Appointment letter advisory committee member Dr Aravind.pdf"},
-      {"title": "Guide Allotment Proofs", "url": "/documents/Guide Allotment proofs.pdf"},
-      {"title": "Invited Lectures Proofs", "url": "/documents/Invited Lectures Proofs.pdf"},
-      {"title": "Resource Person - National Seminar on VLSI Design and Technology", "url": "/RC/VLSI Certificate.pdf"},
-      {"title": "Resource Person - National Seminar on VLSI Design and Technology (Certificate 2)", "url": "/RC/VLSI Certificate 2.pdf"},
-      {"title": "FDP Certificate - Emerging Trends in Embedded Systems", "url": "/RC/Blackbucks-NEC FDP Program Certificate.png"}
+      {
+        "title": "Advisory Committee Appointment",
+        "url": "/documents/Appointment letter advisory committee member Dr Aravind.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Guide Allotment Proofs",
+        "url": "/documents/Guide Allotment proofs.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Invited Lectures Proofs",
+        "url": "/documents/Invited Lectures Proofs.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Resource Person - National Seminar on VLSI Design and Technology",
+        "url": "/RC/VLSI Certificate.pdf",
+        "year": "2025"
+      },
+      {
+        "title": "Resource Person - National Seminar on VLSI Design and Technology (Certificate 2)",
+        "url": "/RC/VLSI Certificate 2.pdf",
+        "year": "2025"
+      },
+      {
+        "title": "FDP Certificate - Emerging Trends in Embedded Systems",
+        "url": "/RC/Blackbucks-NEC FDP Program Certificate.png",
+        "year": "2025"
+      }
     ],
     "education": [
-      {"title": "Certificates", "url": "/documents/Certificates.pdf"}
+      {
+        "title": "Certificates",
+        "url": "/documents/Certificates.pdf",
+        "year": "2026"
+      }
     ],
     "publications": [
-      {"title": "Papers Published (Excel)", "url": "/documents/Papers Published in Refereed Journals.xlsx"},
-      {"title": "3 Journals and 2 Conferences", "url": "/documents/3journals and 2 conferences.pdf"},
-      {"title": "63-3", "url": "/documents/63-3.pdf"},
-      {"title": "Books Proofs", "url": "/documents/BOOKS Proofs.pdf"},
-      {"title": "Books", "url": "/documents/BOOKS.pdf"},
-      {"title": "Conferences Proofs", "url": "/documents/CONFERENCES Proofs.pdf"},
-      {"title": "Conferences", "url": "/documents/CONFERENCES.pdf"},
-      {"title": "Conferences (Excel)", "url": "/documents/CONFERENCES.xlsx"},
-      {"title": "Conferences (7)-1", "url": "/documents/CONFERENCES(7)-1.pdf"},
-      {"title": "Conferences (7)-2", "url": "/documents/CONFERENCES(7)-2.pdf"},
-      {"title": "Conferences (7)-3", "url": "/documents/CONFERENCES(7)-3.pdf"},
-      {"title": "Conferences (7)-4", "url": "/documents/CONFERENCES(7)-4.pdf"},
-      {"title": "Conferences (7)-5", "url": "/documents/CONFERENCES(7)-5.pdf"},
-      {"title": "Conferences (7)-6", "url": "/documents/CONFERENCES(7)-6.pdf"},
-      {"title": "Conferences (7)-7", "url": "/documents/CONFERENCES(7)-7.pdf"},
-      {"title": "Conferences (7)-8", "url": "/documents/CONFERENCES(7)-8.pdf"},
-      {"title": "Conferences (7)-9", "url": "/documents/CONFERENCES(7)-9.pdf"},
-      {"title": "Papers Presented in Conferences", "url": "/documents/III(B)_Papers_Presented_in_International Conference_national conference.pdf"},
-      {"title": "Publication Papers Proofs", "url": "/documents/PUBLICATION PAPERS Proofs.pdf"}
+      {
+        "title": "Papers Published (Excel)",
+        "url": "/documents/Papers Published in Refereed Journals.xlsx",
+        "year": "2026"
+      },
+      {
+        "title": "3 Journals and 2 Conferences",
+        "url": "/documents/3journals and 2 conferences.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "63-3",
+        "url": "/documents/63-3.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Books Proofs",
+        "url": "/documents/BOOKS Proofs.pdf",
+        "year": "2025"
+      },
+      {
+        "title": "Books",
+        "url": "/documents/BOOKS.pdf",
+        "year": "2025"
+      },
+      {
+        "title": "Conferences Proofs",
+        "url": "/documents/CONFERENCES Proofs.pdf",
+        "year": "2025"
+      },
+      {
+        "title": "Conferences",
+        "url": "/documents/CONFERENCES.pdf",
+        "year": "2024"
+      },
+      {
+        "title": "Conferences (Excel)",
+        "url": "/documents/CONFERENCES.xlsx",
+        "year": "2024"
+      },
+      {
+        "title": "Conferences (7)-1",
+        "url": "/documents/CONFERENCES(7)-1.pdf",
+        "year": "2024"
+      },
+      {
+        "title": "Conferences (7)-2",
+        "url": "/documents/CONFERENCES(7)-2.pdf",
+        "year": "2023"
+      },
+      {
+        "title": "Conferences (7)-3",
+        "url": "/documents/CONFERENCES(7)-3.pdf",
+        "year": "2023"
+      },
+      {
+        "title": "Conferences (7)-4",
+        "url": "/documents/CONFERENCES(7)-4.pdf",
+        "year": "2023"
+      },
+      {
+        "title": "Conferences (7)-5",
+        "url": "/documents/CONFERENCES(7)-5.pdf",
+        "year": "2022"
+      },
+      {
+        "title": "Conferences (7)-6",
+        "url": "/documents/CONFERENCES(7)-6.pdf",
+        "year": "2022"
+      },
+      {
+        "title": "Conferences (7)-7",
+        "url": "/documents/CONFERENCES(7)-7.pdf",
+        "year": "2022"
+      },
+      {
+        "title": "Conferences (7)-8",
+        "url": "/documents/CONFERENCES(7)-8.pdf",
+        "year": "2021"
+      },
+      {
+        "title": "Conferences (7)-9",
+        "url": "/documents/CONFERENCES(7)-9.pdf",
+        "year": "2021"
+      },
+      {
+        "title": "Papers Presented in Conferences",
+        "url": "/documents/III(B)_Papers_Presented_in_International Conference_national conference.pdf",
+        "year": "2021"
+      },
+      {
+        "title": "Publication Papers Proofs",
+        "url": "/documents/PUBLICATION PAPERS Proofs.pdf",
+        "year": "2020"
+      }
     ],
     "patents": [
-      {"title": "Patents Proofs", "url": "/documents/PATENTS Proofs.pdf"},
-      {"title": "Patent Application - 202641036604", "url": "/RC/PatentPUB_DF_25-03-2026_DP_10-04-2926_202641036604-604Pg.pdf"},
-      {"title": "Patent Application - 202641042299", "url": "/RC/PatentApplication_202641042299-1.pdf"}
+      {
+        "title": "Patents Proofs",
+        "url": "/documents/PATENTS Proofs.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Patent Application - 202641036604",
+        "url": "/RC/PatentPUB_DF_25-03-2026_DP_10-04-2926_202641036604-604Pg.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Patent Application - 202641042299",
+        "url": "/RC/PatentApplication_202641042299-1.pdf",
+        "year": "2026"
+      }
     ],
     "awards": [
-      {"title": "Awards Proofs", "url": "/documents/Awards Proofs.pdf"}
+      {
+        "title": "Awards Proofs",
+        "url": "/documents/Awards Proofs.pdf",
+        "year": "2026"
+      }
     ],
     "memberships": [
-      {"title": "SCIEI Membership Certificate", "url": "/documents/20180806002.pdf"},
-      {"title": "IAENG Membership Certificate", "url": "/documents/IAENG_membership_124540.pdf"},
-      {"title": "Professional Memberships Documents", "url": "/documents/MEMBERSHIPS-pages.pdf"}
+      {
+        "title": "SCIEI Membership Certificate",
+        "url": "/documents/20180806002.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "IAENG Membership Certificate",
+        "url": "/documents/IAENG_membership_124540.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Professional Memberships Documents",
+        "url": "/documents/MEMBERSHIPS-pages.pdf",
+        "year": "2026"
+      }
     ],
     "reviewerCertificates": [
-      {"title": "Reviewer Invitation Letter - ICIECE 2018", "url": "/RC/01 Reviewer Invitation Letter_ICIECE 2018.pdf"},
-      {"title": "IMA Reviewer Certificate", "url": "/RC/IMA Reviewer Certificate.pdf"},
-      {"title": "Resource Person - National Seminar on VLSI Design and Technology", "url": "/RC/VLSI Certificate.pdf"},
-      {"title": "Resource Person - National Seminar on VLSI Design and Technology (Certificate 2)", "url": "/RC/VLSI Certificate 2.pdf"}
+      {
+        "title": "Reviewer Invitation Letter - ICIECE 2018",
+        "url": "/RC/01 Reviewer Invitation Letter_ICIECE 2018.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "IMA Reviewer Certificate",
+        "url": "/RC/IMA Reviewer Certificate.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Resource Person - National Seminar on VLSI Design and Technology",
+        "url": "/RC/VLSI Certificate.pdf",
+        "year": "2026"
+      },
+      {
+        "title": "Resource Person - National Seminar on VLSI Design and Technology (Certificate 2)",
+        "url": "/RC/VLSI Certificate 2.pdf",
+        "year": "2025"
+      }
     ]
   },
   "reviewerCertificates": [
-    {
-      "title": "Reviewer Invitation Letter",
-      "organization": "7th International Conference on Innovations in Electronics and Communication Engineering (ICIECE-2018)",
-      "id": "ICIECE-2018",
-      "description": "Invited to serve as a reviewer for ICIECE-2018, contributing expertise in VLSI Technology, Signal and Image Processing, Mobile Computing, and Embedded Systems tracks.",
-      "url": "/RC/01 Reviewer Invitation Letter_ICIECE 2018.pdf"
-    },
-    {
-      "title": "Reviewer Certificate",
-      "organization": "International Journal of Imaging Systems and Technology (Wiley)",
-      "id": "IJIST-2019",
-      "description": "Recognized for serving as an active reviewer for the International Journal of Imaging Systems and Technology, evaluating 2 manuscripts in 2019.",
-      "url": "/RC/IMA Reviewer Certificate.pdf"
-    },
     {
       "title": "Resource Person Certificate",
       "organization": "National Seminar on VLSI Design and Technology",
       "id": "PM-USHA 2026",
       "description": "Served as a Resource Person for the PM-USHA sponsored Two-day National Seminar on VLSI Design and Technology organized by Government Degree College, Yeleswaram in collaboration with Blackbucks Education.",
-      "url": "/RC/VLSI Certificate.pdf"
+      "url": "/RC/VLSI Certificate.pdf",
+      "year": "2026"
     },
     {
       "title": "Resource Person Certificate (Certificate 2)",
       "organization": "National Seminar on VLSI Design and Technology",
       "id": "PM-USHA 2026",
       "description": "Served as a Resource Person for the PM-USHA sponsored Two-day National Seminar on VLSI Design and Technology organized by Government Degree College, Yeleswaram in collaboration with Blackbucks Education.",
-      "url": "/RC/VLSI Certificate 2.pdf"
+      "url": "/RC/VLSI Certificate 2.pdf",
+      "year": "2026"
+    },
+    {
+      "title": "Reviewer Certificate",
+      "organization": "International Journal of Imaging Systems and Technology (Wiley)",
+      "id": "IJIST-2019",
+      "description": "Recognized for serving as an active reviewer for the International Journal of Imaging Systems and Technology, evaluating 2 manuscripts in 2019.",
+      "url": "/RC/IMA Reviewer Certificate.pdf",
+      "year": "2026"
+    },
+    {
+      "title": "Reviewer Invitation Letter",
+      "organization": "7th International Conference on Innovations in Electronics and Communication Engineering (ICIECE-2018)",
+      "id": "ICIECE-2018",
+      "description": "Invited to serve as a reviewer for ICIECE-2018, contributing expertise in VLSI Technology, Signal and Image Processing, Mobile Computing, and Embedded Systems tracks.",
+      "url": "/RC/01 Reviewer Invitation Letter_ICIECE 2018.pdf",
+      "year": "2025"
     }
   ],
   "memberships": [
@@ -295,57 +521,80 @@
       "title": "Life Member",
       "organization": "Society for Learning Technologies (SOLETE), India",
       "id": "LM613 | Reg. No 186/2020",
-      "description": "Recognized for advancing quality and standards in Science & Technical Education."
+      "description": "Recognized for advancing quality and standards in Science & Technical Education.",
+      "year": "2026"
     },
     {
       "title": "Life Member",
       "organization": "Indian Society for Technical Education (ISTE)",
-      "id": "LM106059"
+      "id": "LM106059",
+      "year": "2026"
     },
     {
       "title": "Member",
       "organization": "Science and Engineering Institute (SCIEI)",
       "id": "20180806002",
-      "url": "/documents/20180806002.pdf"
+      "url": "/documents/20180806002.pdf",
+      "year": "2026"
     },
     {
       "title": "Member",
       "organization": "Institute for Engineering Research and Publication (IFERP)",
-      "id": "PMIN83915026"
+      "id": "PMIN83915026",
+      "year": "2025"
     },
     {
       "title": "Member",
       "organization": "Society of Digital Information and Wireless Communications (SDIWC)",
-      "id": "3817"
+      "id": "3817",
+      "year": "2025"
     },
     {
       "title": "Member",
       "organization": "Institution of Electronics and Telecommunication Engineers (IETE)",
-      "id": "501602"
+      "id": "501602",
+      "year": "2025"
     },
     {
       "title": "Member",
       "organization": "Institute of Engineers, India, Kolkata (IE)",
-      "id": "AM1616652"
+      "id": "AM1616652",
+      "year": "2024"
     },
     {
       "title": "Member",
       "organization": "International Association of Engineers, Hong Kong (IAENG)",
       "id": "124450",
-      "url": "/documents/IAENG_membership_124540.pdf"
+      "url": "/documents/IAENG_membership_124540.pdf",
+      "year": "2024"
     },
     {
       "title": "Member",
       "organization": "Universal Association of Computer & Electronics Engineers (UACCE)",
-      "id": "AM1010003037"
+      "id": "AM1010003037",
+      "year": "2024"
     }
   ],
   "gallery": [
-    { "url": "/gallery/PHOTO-2026-05-20-16-38-09.jpg", "caption": "SOLETE International Awards 2025" },
-    { "url": "/gallery/PHOTO-2026-05-20-16-38-09 2.jpg", "caption": "Dr. Sarvepalli Radhakrishnan Best Teacher Award" },
-    { "url": "/gallery/PHOTO-2026-05-20-16-42-15.jpg", "caption": "Awards Ceremony Moment" },
-    { "url": "/gallery/PHOTO-2026-05-20-16-42-15 2.jpg", "caption": "Honoring Excellence in Teaching" },
-    { "url": "/gallery/PHOTO-2026-05-20-16-42-15 3.jpg", "caption": "Certificate of Honor Presentation" }
+    {
+      "url": "/gallery/PHOTO-2026-05-20-16-38-09.jpg",
+      "caption": "SOLETE International Awards 2025"
+    },
+    {
+      "url": "/gallery/PHOTO-2026-05-20-16-38-09 2.jpg",
+      "caption": "Dr. Sarvepalli Radhakrishnan Best Teacher Award"
+    },
+    {
+      "url": "/gallery/PHOTO-2026-05-20-16-42-15.jpg",
+      "caption": "Awards Ceremony Moment"
+    },
+    {
+      "url": "/gallery/PHOTO-2026-05-20-16-42-15 2.jpg",
+      "caption": "Honoring Excellence in Teaching"
+    },
+    {
+      "url": "/gallery/PHOTO-2026-05-20-16-42-15 3.jpg",
+      "caption": "Certificate of Honor Presentation"
+    }
   ]
 }
-
