@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { useProfile } from '../ProfileContext';
 
 const AnimatedNumber = ({ value }) => {
@@ -127,14 +128,42 @@ export default function HighEndHome() {
               </div>
             </div>
 
+            {/* Academic IDs */}
+            <div className="flex flex-wrap gap-3 pt-2 pb-6">
+              {data.personal.ids.googleScholarLink && (
+                <a href={data.personal.ids.googleScholarLink} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-sm font-bold transition-colors border border-white/10 backdrop-blur-sm">
+                  <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.911L12 5l12 9.5z"/></svg>
+                  Google Scholar
+                </a>
+              )}
+              {data.personal.ids.scopus && (
+                <a href={`https://www.scopus.com/authid/detail.uri?authorId=${data.personal.ids.scopus}`} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-sm font-bold transition-colors border border-white/10 backdrop-blur-sm">
+                  <span className="text-white/70 font-black">Scopus</span>
+                  {data.personal.ids.scopus}
+                </a>
+              )}
+              {data.personal.ids.orcid && (
+                <a href={`https://orcid.org/${data.personal.ids.orcid}`} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-sm font-bold transition-colors border border-white/10 backdrop-blur-sm">
+                  <span className="text-white/70 font-black">ORCID</span>
+                  {data.personal.ids.orcid}
+                </a>
+              )}
+              {data.personal.ids.researcherId && (
+                <a href={`https://www.webofscience.com/wos/author/record/${data.personal.ids.researcherId}`} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-sm font-bold transition-colors border border-white/10 backdrop-blur-sm">
+                  <span className="text-white/70 font-black">ResearcherID</span>
+                  {data.personal.ids.researcherId}
+                </a>
+              )}
+            </div>
+
             {/* Buttons */}
             <div className="flex gap-4">
-              <button className="px-8 py-3 bg-white/20 hover:bg-white/30 text-white border border-white/30 rounded-xl font-bold transition-colors">
+              <Link to="/research/publications" className="px-8 py-3 bg-white/20 hover:bg-white/30 text-white border border-white/30 rounded-xl font-bold transition-colors inline-block">
                 Research Portfolio
-              </button>
-              <button className="px-8 py-3 bg-transparent hover:bg-white/10 text-white border border-white/50 rounded-xl font-bold transition-colors">
+              </Link>
+              <Link to="/life/gallery" className="px-8 py-3 bg-transparent hover:bg-white/10 text-white border border-white/50 rounded-xl font-bold transition-colors inline-block">
                 International Journey
-              </button>
+              </Link>
             </div>
           </div>
 

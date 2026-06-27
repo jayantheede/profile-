@@ -5,7 +5,7 @@
     "department": "Department of Electronics and Communication Engineering",
     "institution": "WEST Godavari Institute of Science and Engineering",
     "email": "drmaravindkumar@gmail.com",
-    "phone": "+91-8121703638",
+    "phone": "+91 8121703638",
     "image": "/profile.png",
     "ids": {
       "scopus": "58829329300",
@@ -13,6 +13,9 @@
       "researcherId": "A-1234-2026",
       "googleScholar": "bHvIWtoAAAAJ",
       "googleScholarLink": "https://scholar.google.com/citations?hl=en&user=bHvIWtoAAAAJ&scilu=&scisig=ACUpqDcAAAAAaDk7k0j9XoZRahTz_iuaHD0L96g&gmla=AH8HC4z3LoKCL3Nwxjq4zg5bQ21PpccY6-9gzuKeBhtPOTNBg23ny7KLEIQuKfzWlIq2KvfRKQm95DEXlxU5kNtAuFEx8JgztFXzMIB1_rM&sciund=5868159360230330197"
+    },
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/dr-m-aravind-kumar-810522b/"
     }
   },
   "patents": [
@@ -105,6 +108,11 @@
     "Deep Learning"
   ],
   "experience": [
+    {
+      "role": "HEAD OF OPERATIONS & CHIEF FINANCIAL OFFICER (CFO)",
+      "institution": "SRavanga AI Smart Solutions",
+      "duration": "Jan 2026 - Present"
+    },
     {
       "role": "Principal & Professor",
       "institution": "WEST Godavari Institute of Science and Engineering",
